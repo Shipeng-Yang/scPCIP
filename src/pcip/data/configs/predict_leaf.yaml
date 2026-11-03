@@ -1,0 +1,16 @@
+# scPCIP predict config. Leaf: epidermis, mesophyll, vasculature, with a secondary xylem / phloem score inside vasculature.
+# The gene -> orthogroup map is fetched automatically (see `scpcip fetch`).
+dictionary: ../dictionaries/leaf.yaml
+aggregate: sum
+method: weighted_rank
+seed: 20261006
+score_correction: bg_center
+warn_mapping_rate_below: 0.5
+refine: selftrain_vote
+vote_resolution: 2.0
+vote_min_purity: 0.5
+tissue_system:
+  epidermis: dermal
+  mesophyll: ground
+  vascular: vascular
+tissue_system_reliability: 'the three leaf cell types are the three tissue systems; per-cell confidence is in expected_accuracy'

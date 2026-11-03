@@ -1,0 +1,68 @@
+Bootstrap: docker
+From: mambaorg/micromamba:2.0.5
+
+# Build from a directory holding this file, the scPCIP source tree as scpcip/, the gene -> orthogroup map as
+# gene_to_feature.tsv, the SCP / ggPlantmap source tarballs in rpkgs/ and DejaVuSans.ttf / DejaVuSans-Bold.ttf in
+# fonts/ (see container/README.md):
+#   apptainer build scpcip.sif scpcip.def
+
+%files
+    scpcip /opt/scpcip/src
+    gene_to_feature.tsv /opt/scpcip/cache/7eaec1bb7081/gene_to_feature.tsv
+    rpkgs /opt/rpkgs
+    fonts /opt/fonts
+
+%environment
+    export PATH=/opt/conda/envs/scpcip/bin:$PATH
+    export SCPCIP_RSCRIPT=/opt/conda/envs/r/bin/Rscript
+    export SCPCIP_CACHE=/opt/scpcip/cache
+    export HDF5_USE_FILE_LOCKING=FALSE
+    export LC_ALL=C.UTF-8
+
+%post
+    set -eu
+    export MAMBA_ROOT_PREFIX=/opt/conda
+    micromamba create -y -q -n r -c conda-forge -c bioconda --strict-channel-priority \
+        r-base=4.5.3 r-seurat=5.5.0 r-seuratobject=5.4.0 r-matrix=1.7_5 \
+        r-ggplot2=4.0.3 r-patchwork=1.3.2 r-dplyr=1.2.1 r-ragg=1.5.2 \
+        r-circlize=0.4.18 r-data.table=1.17.8 r-future=1.70.0 r-future.apply=1.20.2 r-ggnewscale=0.5.2 \
+        r-ggrepel=0.9.8 r-ggforce=0.5.0 r-gtable=0.3.6 r-igraph=2.3.1 r-intrinsicdimension=1.2.0 \
+        r-mgcv=1.9_4 r-pbapply=1.7_4 r-png=0.1_9 r-plotly=4.12.0 r-proxyc=0.5.2 r-r.cache=0.17.0 \
+        r-r.utils=2.13.0 r-reshape2=1.4.5 r-reticulate=1.46.0 r-rlang r-scales=1.4.0 r-uwot=0.2.4 \
+        r-rcpp=1.1.1_1.1 r-tibble=3.3.1 r-xml=3.99_0.22 r-signac=1.17.1 \
+        bioconductor-annotationdbi=1.72.0 bioconductor-biomart=2.66.1 bioconductor-biocparallel=1.44.0 \
+        bioconductor-clusterprofiler=4.18.4 bioconductor-complexheatmap=2.26.1 bioconductor-go.db=3.22.0 \
+        bioconductor-gosemsim=2.36.0 bioconductor-hdf5array=1.38.0 bioconductor-rhdf5=2.54.1 \
+        bioconductor-simplifyenrichment=2.4.1 bioconductor-slingshot=2.18.0 \
+        cxx-compiler make fonts-conda-ecosystem
+    # SCP (GPL-3) and ggPlantmap (MIT) are not on CRAN / Bioconductor; pinned GitHub commits
+    cd /opt/rpkgs
+    echo "92d097e2e87d3370cb1d6844b55a1b7829690455e61e592f6a8c26449d9467fe  SCP_b9b0eb7a7bf2c2c4b2262e73e09d7ebd515c7da0.tar.gz" | sha256sum -c
+    echo "7a1fc7f7f618bef3b0f5fde9d34365967229f67915f133f50e7e1b5075232105  ggPlantmap_e0508172709dc192dfc3e99da631984dbd9a97d2.tar.gz" | sha256sum -c
+    for f in *.tar.gz; do tar xzf "$f"; done
+    micromamba run -n r R CMD INSTALL SCP-b9b0eb7a7bf2c2c4b2262e73e09d7ebd515c7da0 ggPlantmap-e0508172709dc192dfc3e99da631984dbd9a97d2
+    cd / && rm -rf /opt/rpkgs
+    # the conda font set has no bold sans face; figure legends use bold DejaVu Sans
+    cd /opt/fonts
+    echo "7da195a74c55bef988d0d48f9508bd5d849425c1770dba5d7bfc6ce9ed848954  DejaVuSans.ttf" | sha256sum -c
+    echo "e6476c1b80502924294eed40894c5b18e06c181444ca953e5334262df9c27724  DejaVuSans-Bold.ttf" | sha256sum -c
+    cp DejaVuSans.ttf DejaVuSans-Bold.ttf /opt/conda/envs/r/fonts/
+    cd / && rm -rf /opt/fonts
+    micromamba run -n r fc-cache -f
+    micromamba run -n r Rscript -e 'for (p in c("SCP", "Seurat", "ggPlantmap")) library(p, character.only = TRUE)'
+
+    micromamba create -y -q -n scpcip -c conda-forge python=3.13 pip
+    micromamba run -n scpcip pip install --no-cache-dir /opt/scpcip/src
+    micromamba clean -a -y
+    chmod -R a+rX /opt/scpcip
+
+%runscript
+    exec scpcip "$@"
+
+%test
+    scpcip --version
+
+%labels
+    org.opencontainers.image.title scPCIP
+    org.opencontainers.image.source https://github.com/Shipeng-Yang/scPCIP
+    org.opencontainers.image.licenses MIT

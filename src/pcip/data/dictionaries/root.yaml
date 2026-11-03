@@ -1,0 +1,1681 @@
+version: root
+feature_layer: orthogroup
+programs:
+- program_id: PCIP_ATLAS_ROOT_CORTEX
+  cell_type_coarse: cortex
+  program_type: identity
+  scope: root
+  level: coarse
+  positive_features:
+  - feature_id: PCIP_OG:eggnog:37HJY
+    weight: 1.0
+  - feature_id: PCIP_OG:eggnog:37NK1
+    weight: 0.68
+  - feature_id: PCIP_OG:eggnog:37UZ3
+    weight: 0.4632
+  - feature_id: PCIP_OG:eggnog:37S9R
+    weight: 0.4122
+  - feature_id: PCIP_OG:eggnog:37Q9B
+    weight: 0.3289
+  - feature_id: PCIP_OG:eggnog:37KFD
+    weight: 0.3787
+  - feature_id: PCIP_OG:eggnog:37KEI
+    weight: 0.2665
+  - feature_id: PCIP_OG:eggnog:37INX
+    weight: 0.2089
+  - feature_id: PCIP_OG:eggnog:37QH4
+    weight: 0.2814
+  - feature_id: PCIP_OG:eggnog:37JX5
+    weight: 0.2755
+  - feature_id: PCIP_OG:eggnog:37U6F
+    weight: 0.241
+  - feature_id: PCIP_OG:eggnog:37M3D
+    weight: 0.4418
+  - feature_id: PCIP_OG:eggnog:37T4R
+    weight: 0.3784
+  - feature_id: PCIP_OG:eggnog:37HQJ
+    weight: 0.3208
+  - feature_id: PCIP_OG:eggnog:37K0X
+    weight: 0.2794
+  - feature_id: PCIP_OG:eggnog:37K8G
+    weight: 0.2667
+  - feature_id: PCIP_OG:eggnog:37RBT
+    weight: 0.2195
+  - feature_id: PCIP_OG:eggnog:37QEA
+    weight: 0.2485
+  - feature_id: PCIP_OG:eggnog:37UQB
+    weight: 0.2031
+  - feature_id: PCIP_OG:eggnog:37KA3
+    weight: 0.1873
+  - feature_id: PCIP_OG:eggnog:37NB2
+    weight: 0.1672
+  - feature_id: PCIP_OG:eggnog:37K9M
+    weight: 0.2592
+  - feature_id: PCIP_OG:eggnog:37PQK
+    weight: 0.1962
+  - feature_id: PCIP_OG:eggnog:37Q3V
+    weight: 0.1664
+  - feature_id: PCIP_OG:eggnog:37KFK
+    weight: 0.1363
+  - feature_id: PCIP_OG:eggnog:37P62
+    weight: 0.1362
+  - feature_id: PCIP_OG:eggnog:37SIJ
+    weight: 0.3262
+  - feature_id: PCIP_OG:eggnog:37HHR
+    weight: 0.2513
+  - feature_id: PCIP_OG:eggnog:37V9T
+    weight: 0.2058
+  - feature_id: PCIP_OG:eggnog:37IW9
+    weight: 0.1825
+  - feature_id: PCIP_OG:eggnog:37WZY
+    weight: 0.1158
+  - feature_id: PCIP_OG:eggnog:37QQQ
+    weight: 0.2354
+  - feature_id: PCIP_OG:eggnog:37PUH
+    weight: 0.124
+  - feature_id: PCIP_OG:eggnog:37IVJ
+    weight: 0.1072
+  - feature_id: PCIP_OG:eggnog:37Q1B
+    weight: 0.1025
+  - feature_id: PCIP_OG:eggnog:37K00
+    weight: 0.15
+  - feature_id: PCIP_OG:eggnog:37HYK
+    weight: 0.1408
+  - feature_id: PCIP_OG:eggnog:37J5B
+    weight: 0.11
+  - feature_id: PCIP_OG:eggnog:37M5A
+    weight: 0.097
+  - feature_id: PCIP_OG:eggnog:37Q86
+    weight: 0.0658
+  - feature_id: PCIP_OG:eggnog:37KP4
+    weight: 0.194
+  - feature_id: PCIP_OG:eggnog:37JTX
+    weight: 0.1566
+  - feature_id: PCIP_OG:eggnog:37SVD
+    weight: 0.1566
+  - feature_id: PCIP_OG:eggnog:37P1M
+    weight: 0.1428
+  - feature_id: PCIP_OG:eggnog:37I2B
+    weight: 0.0988
+  - feature_id: PCIP_OG:eggnog:37J34
+    weight: 0.2082
+  - feature_id: PCIP_OG:eggnog:37J1P
+    weight: 0.1412
+  - feature_id: PCIP_OG:eggnog:37U7U
+    weight: 0.1235
+  - feature_id: PCIP_OG:eggnog:37MPX
+    weight: 0.122
+  - feature_id: PCIP_OG:eggnog:37HW7
+    weight: 0.2314
+  - feature_id: PCIP_OG:eggnog:37IDH
+    weight: 0.202
+  - feature_id: PCIP_OG:eggnog:37KR2
+    weight: 0.1307
+  - feature_id: PCIP_OG:eggnog:37SI0
+    weight: 0.109
+  - feature_id: PCIP_OG:eggnog:37W7G
+    weight: 0.1061
+  - feature_id: PCIP_OG:eggnog:37SFA
+    weight: 0.0686
+- program_id: PCIP_ATLAS_ROOT_ENDODERMIS
+  cell_type_coarse: endodermis
+  program_type: identity
+  scope: root
+  level: coarse
+  positive_features:
+  - feature_id: PCIP_OG:eggnog:37W6A
+    weight: 1.0
+  - feature_id: PCIP_OG:eggnog:37QMW
+    weight: 0.7263
+  - feature_id: PCIP_OG:eggnog:37JN5
+    weight: 0.6237
+  - feature_id: PCIP_OG:eggnog:37KU8
+    weight: 0.6227
+  - feature_id: PCIP_OG:eggnog:37M2M
+    weight: 0.5623
+  - feature_id: PCIP_OG:eggnog:37KTV
+    weight: 0.5136
+  - feature_id: PCIP_OG:eggnog:37K9M
+    weight: 0.3808
+  - feature_id: PCIP_OG:eggnog:37SAU
+    weight: 0.5222
+  - feature_id: PCIP_OG:eggnog:37VG8
+    weight: 0.2806
+  - feature_id: PCIP_OG:eggnog:37I22
+    weight: 0.3212
+  - feature_id: PCIP_OG:eggnog:37VJ3
+    weight: 0.1612
+  - feature_id: PCIP_OG:eggnog:37KU9
+    weight: 0.1503
+  - feature_id: PCIP_OG:eggnog:37U7U
+    weight: 0.1723
+  - feature_id: PCIP_OG:eggnog:37J0H
+    weight: 0.1396
+  - feature_id: PCIP_OG:eggnog:37V0D
+    weight: 0.6625
+  - feature_id: PCIP_OG:eggnog:37JD8
+    weight: 0.1951
+  - feature_id: PCIP_OG:eggnog:37S71
+    weight: 0.2793
+  - feature_id: PCIP_OG:eggnog:37IJR
+    weight: 0.2279
+  - feature_id: PCIP_OG:eggnog:37Q3V
+    weight: 0.1768
+  - feature_id: PCIP_OG:eggnog:37KIT
+    weight: 0.0893
+  - feature_id: PCIP_OG:eggnog:37J4U
+    weight: 0.1736
+  - feature_id: PCIP_OG:eggnog:37K8F
+    weight: 0.1718
+  - feature_id: PCIP_OG:eggnog:37SIX
+    weight: 0.1482
+  - feature_id: PCIP_OG:eggnog:37NYM
+    weight: 0.1455
+  - feature_id: PCIP_OG:eggnog:37MI4
+    weight: 0.1405
+  - feature_id: PCIP_OG:eggnog:37RKF
+    weight: 0.3395
+  - feature_id: PCIP_OG:eggnog:37K80
+    weight: 0.1786
+  - feature_id: PCIP_OG:eggnog:37KEZ
+    weight: 0.112
+  - feature_id: PCIP_OG:eggnog:37ID4
+    weight: 0.1471
+  - feature_id: PCIP_OG:eggnog:37RM2
+    weight: 0.1322
+  - feature_id: PCIP_OG:eggnog:37PEI
+    weight: 0.1246
+  - feature_id: PCIP_OG:eggnog:37KYK
+    weight: 0.1067
+  - feature_id: PCIP_OG:eggnog:37M5A
+    weight: 0.0875
+  - feature_id: PCIP_OG:eggnog:37JWR
+    weight: 0.2642
+  - feature_id: PCIP_OG:eggnog:37P1M
+    weight: 0.1344
+  - feature_id: PCIP_OG:eggnog:37RAY
+    weight: 0.1088
+  - feature_id: PCIP_OG:eggnog:37IEP
+    weight: 0.1082
+  - feature_id: PCIP_OG:eggnog:37Q1R
+    weight: 0.0906
+  - feature_id: PCIP_OG:eggnog:37SMK
+    weight: 0.0905
+- program_id: PCIP_ATLAS_ROOT_EPIDERMIS
+  cell_type_coarse: epidermis
+  program_type: identity
+  scope: root
+  level: coarse
+  positive_features:
+  - feature_id: PCIP_OG:eggnog:37S69
+    weight: 0.6714
+  - feature_id: PCIP_OG:eggnog:37I5U
+    weight: 0.5902
+  - feature_id: PCIP_OG:eggnog:37PNG
+    weight: 0.5275
+  - feature_id: PCIP_OG:eggnog:37KTG
+    weight: 0.2249
+  - feature_id: PCIP_OG:eggnog:37Q4R
+    weight: 1.0
+  - feature_id: PCIP_OG:eggnog:37RTH
+    weight: 0.4904
+  - feature_id: PCIP_OG:eggnog:37S1T
+    weight: 0.388
+  - feature_id: PCIP_OG:eggnog:37HQP
+    weight: 0.3481
+  - feature_id: PCIP_OG:eggnog:37INX
+    weight: 0.2366
+  - feature_id: PCIP_OG:eggnog:37JS2
+    weight: 0.2343
+  - feature_id: PCIP_OG:eggnog:37UH8
+    weight: 0.3106
+  - feature_id: PCIP_OG:eggnog:37PK2
+    weight: 0.2859
+  - feature_id: PCIP_OG:eggnog:37K60
+    weight: 0.3708
+  - feature_id: PCIP_OG:eggnog:37TY3
+    weight: 0.3553
+  - feature_id: PCIP_OG:eggnog:37M0B
+    weight: 0.3381
+  - feature_id: PCIP_OG:eggnog:37JNY
+    weight: 0.2736
+  - feature_id: PCIP_OG:eggnog:37KWR
+    weight: 0.4026
+  - feature_id: PCIP_OG:eggnog:37IS8
+    weight: 0.3141
+  - feature_id: PCIP_OG:eggnog:37M2C
+    weight: 0.2452
+  - feature_id: PCIP_OG:eggnog:37I21
+    weight: 0.2234
+  - feature_id: PCIP_OG:eggnog:37R3F
+    weight: 0.1503
+  - feature_id: PCIP_OG:eggnog:37MPS
+    weight: 0.2778
+  - feature_id: PCIP_OG:eggnog:37PX3
+    weight: 0.2183
+  - feature_id: PCIP_OG:eggnog:37I59
+    weight: 0.1903
+  - feature_id: PCIP_OG:eggnog:37UIN
+    weight: 0.1833
+  - feature_id: PCIP_OG:eggnog:37IS9
+    weight: 0.1784
+  - feature_id: PCIP_OG:eggnog:37JXE
+    weight: 0.163
+  - feature_id: PCIP_OG:eggnog:37UMG
+    weight: 0.3421
+  - feature_id: PCIP_OG:eggnog:37MUT
+    weight: 0.2798
+  - feature_id: PCIP_OG:eggnog:37RUU
+    weight: 0.2563
+  - feature_id: PCIP_OG:eggnog:37TN3
+    weight: 0.1924
+  - feature_id: PCIP_OG:eggnog:37Q0A
+    weight: 0.1802
+  - feature_id: PCIP_OG:eggnog:37J2M
+    weight: 0.2333
+  - feature_id: PCIP_OG:eggnog:37UYT
+    weight: 0.1921
+  - feature_id: PCIP_OG:eggnog:37JU0
+    weight: 0.1802
+  - feature_id: PCIP_OG:eggnog:37JIH
+    weight: 0.2146
+  - feature_id: PCIP_OG:eggnog:37WTE
+    weight: 0.1777
+  - feature_id: PCIP_OG:eggnog:37KCY
+    weight: 0.1442
+  - feature_id: PCIP_OG:eggnog:37QQ0
+    weight: 0.2728
+  - feature_id: PCIP_OG:eggnog:37JCK
+    weight: 0.2
+  - feature_id: PCIP_OG:eggnog:37N60
+    weight: 0.18
+  - feature_id: PCIP_OG:eggnog:37P4S
+    weight: 0.1537
+  - feature_id: PCIP_OG:eggnog:37SUX
+    weight: 0.1285
+  - feature_id: PCIP_OG:eggnog:37SNC
+    weight: 0.1695
+  - feature_id: PCIP_OG:eggnog:37R0M
+    weight: 0.1181
+  - feature_id: PCIP_OG:eggnog:37NYW
+    weight: 0.2311
+  - feature_id: PCIP_OG:eggnog:37I6W
+    weight: 0.1934
+  - feature_id: PCIP_OG:eggnog:37JCM
+    weight: 0.1751
+  - feature_id: PCIP_OG:eggnog:37R0G
+    weight: 0.1715
+  - feature_id: PCIP_OG:eggnog:37XBC
+    weight: 0.1135
+  - feature_id: PCIP_OG:eggnog:37QRM
+    weight: 0.1068
+- program_id: PCIP_ATLAS_ROOT_PERICYCLE
+  cell_type_coarse: pericycle
+  program_type: identity
+  scope: root
+  level: coarse
+  positive_features:
+  - feature_id: PCIP_OG:eggnog:37NGQ
+    weight: 1.0
+  - feature_id: PCIP_OG:eggnog:37SHC
+    weight: 0.4536
+  - feature_id: PCIP_OG:eggnog:37NPG
+    weight: 0.9113
+  - feature_id: PCIP_OG:eggnog:37IX2
+    weight: 0.6424
+  - feature_id: PCIP_OG:eggnog:37NVA
+    weight: 0.5745
+  - feature_id: PCIP_OG:eggnog:37KG4
+    weight: 0.3772
+  - feature_id: PCIP_OG:eggnog:37U84
+    weight: 0.9997
+  - feature_id: PCIP_OG:eggnog:37HEK
+    weight: 0.6084
+  - feature_id: PCIP_OG:eggnog:37V7C
+    weight: 0.544
+  - feature_id: PCIP_OG:eggnog:37JQT
+    weight: 0.5388
+  - feature_id: PCIP_OG:eggnog:37VBN
+    weight: 0.3893
+  - feature_id: PCIP_OG:eggnog:37MK8
+    weight: 0.3501
+  - feature_id: PCIP_OG:eggnog:37JCJ
+    weight: 0.2538
+  - feature_id: PCIP_OG:eggnog:37NEB
+    weight: 0.5455
+  - feature_id: PCIP_OG:eggnog:37M4G
+    weight: 0.42
+  - feature_id: PCIP_OG:eggnog:37PGR
+    weight: 0.4046
+  - feature_id: PCIP_OG:eggnog:37U8B
+    weight: 0.3312
+  - feature_id: PCIP_OG:eggnog:37K0R
+    weight: 0.2564
+  - feature_id: PCIP_OG:eggnog:37S61
+    weight: 0.5127
+  - feature_id: PCIP_OG:eggnog:37SE5
+    weight: 0.4012
+  - feature_id: PCIP_OG:eggnog:37HRA
+    weight: 0.5222
+  - feature_id: PCIP_OG:eggnog:37NTX
+    weight: 0.4265
+  - feature_id: PCIP_OG:eggnog:37J4G
+    weight: 0.3456
+  - feature_id: PCIP_OG:eggnog:37X4J
+    weight: 0.312
+  - feature_id: PCIP_OG:eggnog:37HV3
+    weight: 0.3
+  - feature_id: PCIP_OG:eggnog:37QVP
+    weight: 0.2345
+  - feature_id: PCIP_OG:eggnog:37Q18
+    weight: 0.4082
+  - feature_id: PCIP_OG:eggnog:37KM6
+    weight: 0.2542
+  - feature_id: PCIP_OG:eggnog:37JD8
+    weight: 0.1497
+  - feature_id: PCIP_OG:eggnog:37U2W
+    weight: 0.2778
+  - feature_id: PCIP_OG:eggnog:37IB1
+    weight: 0.265
+  - feature_id: PCIP_OG:eggnog:37N70
+    weight: 0.2562
+  - feature_id: PCIP_OG:eggnog:37IFN
+    weight: 0.2212
+  - feature_id: PCIP_OG:eggnog:37HM8
+    weight: 0.2191
+  - feature_id: PCIP_OG:eggnog:37HJM
+    weight: 0.199
+  - feature_id: PCIP_OG:eggnog:37HHX
+    weight: 0.1885
+  - feature_id: PCIP_OG:eggnog:37I3E
+    weight: 0.1497
+  - feature_id: PCIP_OG:eggnog:37JPC
+    weight: 0.1139
+  - feature_id: PCIP_OG:eggnog:37I34
+    weight: 0.2769
+  - feature_id: PCIP_OG:eggnog:37P15
+    weight: 0.1466
+  - feature_id: PCIP_OG:eggnog:37JSE
+    weight: 0.1357
+  - feature_id: PCIP_OG:eggnog:37QWB
+    weight: 0.4233
+  - feature_id: PCIP_OG:eggnog:37JSG
+    weight: 0.3284
+  - feature_id: PCIP_OG:eggnog:37KNX
+    weight: 0.2963
+  - feature_id: PCIP_OG:eggnog:37NH0
+    weight: 0.2894
+  - feature_id: PCIP_OG:eggnog:37PZX
+    weight: 0.2386
+  - feature_id: PCIP_OG:eggnog:37NKW
+    weight: 0.2343
+  - feature_id: PCIP_OG:eggnog:37NIT
+    weight: 0.2048
+  - feature_id: PCIP_OG:eggnog:37MR7
+    weight: 0.1627
+  - feature_id: PCIP_OG:eggnog:37JK9
+    weight: 0.1198
+  - feature_id: PCIP_OG:eggnog:37V9Q
+    weight: 0.4226
+  - feature_id: PCIP_OG:eggnog:37I5G
+    weight: 0.2814
+  - feature_id: PCIP_OG:eggnog:37VBS
+    weight: 0.1815
+  - feature_id: PCIP_OG:eggnog:37HPC
+    weight: 0.1624
+  - feature_id: PCIP_OG:eggnog:37M61
+    weight: 0.1434
+  - feature_id: PCIP_OG:eggnog:37J4U
+    weight: 0.332
+  - feature_id: PCIP_OG:eggnog:37PA2
+    weight: 0.226
+  - feature_id: PCIP_OG:eggnog:37NRT
+    weight: 0.1978
+- program_id: PCIP_ATLAS_ROOT_PHLOEM
+  cell_type_coarse: phloem
+  program_type: identity
+  scope: root
+  level: coarse
+  positive_features:
+  - feature_id: PCIP_OG:eggnog:37URC
+    weight: 1.0
+  - feature_id: PCIP_OG:eggnog:37RAX
+    weight: 0.5956
+  - feature_id: PCIP_OG:eggnog:37T0I
+    weight: 0.4739
+  - feature_id: PCIP_OG:eggnog:37R63
+    weight: 0.3117
+  - feature_id: PCIP_OG:eggnog:37V1A
+    weight: 0.2894
+  - feature_id: PCIP_OG:eggnog:37S6V
+    weight: 0.4587
+  - feature_id: PCIP_OG:eggnog:37MIV
+    weight: 0.4328
+  - feature_id: PCIP_OG:eggnog:37UX3
+    weight: 0.3523
+  - feature_id: PCIP_OG:eggnog:37J4G
+    weight: 0.279
+  - feature_id: PCIP_OG:eggnog:37JBR
+    weight: 0.2255
+  - feature_id: PCIP_OG:eggnog:37UFM
+    weight: 0.1429
+  - feature_id: PCIP_OG:eggnog:37JCJ
+    weight: 0.2466
+  - feature_id: PCIP_OG:eggnog:37JD4
+    weight: 0.2087
+  - feature_id: PCIP_OG:eggnog:37WW2
+    weight: 0.4504
+  - feature_id: PCIP_OG:eggnog:37HHH
+    weight: 0.247
+  - feature_id: PCIP_OG:eggnog:37TQT
+    weight: 0.1996
+  - feature_id: PCIP_OG:eggnog:37NPT
+    weight: 0.1695
+  - feature_id: PCIP_OG:eggnog:37N5F
+    weight: 0.1671
+  - feature_id: PCIP_OG:eggnog:37U84
+    weight: 0.2803
+  - feature_id: PCIP_OG:eggnog:37QWD
+    weight: 0.2266
+  - feature_id: PCIP_OG:eggnog:37JHG
+    weight: 0.1697
+  - feature_id: PCIP_OG:eggnog:37SBD
+    weight: 0.1468
+  - feature_id: PCIP_OG:eggnog:37KKX
+    weight: 0.2711
+  - feature_id: PCIP_OG:eggnog:37MDT
+    weight: 0.2126
+  - feature_id: PCIP_OG:eggnog:37RS7
+    weight: 0.1673
+  - feature_id: PCIP_OG:eggnog:37JDD
+    weight: 0.1023
+  - feature_id: PCIP_OG:eggnog:37NZD
+    weight: 0.2056
+  - feature_id: PCIP_OG:eggnog:37U81
+    weight: 0.1538
+  - feature_id: PCIP_OG:eggnog:37TUS
+    weight: 0.1468
+  - feature_id: PCIP_OG:eggnog:37K0Y
+    weight: 0.0936
+  - feature_id: PCIP_OG:eggnog:37JC6
+    weight: 0.3876
+  - feature_id: PCIP_OG:eggnog:37UMT
+    weight: 0.1402
+  - feature_id: PCIP_OG:eggnog:37TRQ
+    weight: 0.0892
+  - feature_id: PCIP_OG:eggnog:37MHJ
+    weight: 0.1866
+  - feature_id: PCIP_OG:eggnog:37UQ4
+    weight: 0.1545
+  - feature_id: PCIP_OG:eggnog:37MD0
+    weight: 0.083
+  - feature_id: PCIP_OG:eggnog:37U3Q
+    weight: 0.0703
+  - feature_id: PCIP_OG:eggnog:37IKR
+    weight: 0.0546
+  - feature_id: PCIP_OG:eggnog:37IDW
+    weight: 0.1882
+  - feature_id: PCIP_OG:eggnog:37K7T
+    weight: 0.1752
+  - feature_id: PCIP_OG:eggnog:37R74
+    weight: 0.125
+  - feature_id: PCIP_OG:eggnog:37PVP
+    weight: 0.0817
+  - feature_id: PCIP_OG:eggnog:37QVK
+    weight: 0.0752
+  - feature_id: PCIP_OG:eggnog:37PGR
+    weight: 0.0686
+  - feature_id: PCIP_OG:eggnog:37JT8
+    weight: 0.3316
+  - feature_id: PCIP_OG:eggnog:37KKB
+    weight: 0.1353
+  - feature_id: PCIP_OG:eggnog:37V8A
+    weight: 0.128
+  - feature_id: PCIP_OG:eggnog:37PIP
+    weight: 0.1032
+- program_id: PCIP_ATLAS_ROOT_PROCAMBIUM
+  cell_type_coarse: procambium
+  program_type: identity
+  scope: root
+  level: coarse
+  positive_features:
+  - feature_id: PCIP_OG:eggnog:37KAT
+    weight: 0.4953
+  - feature_id: PCIP_OG:eggnog:37Q9M
+    weight: 0.323
+  - feature_id: PCIP_OG:eggnog:37K3R
+    weight: 0.2844
+  - feature_id: PCIP_OG:eggnog:37J8N
+    weight: 0.2951
+  - feature_id: PCIP_OG:eggnog:37QK1
+    weight: 0.1976
+  - feature_id: PCIP_OG:eggnog:37KCX
+    weight: 0.226
+  - feature_id: PCIP_OG:eggnog:37PUG
+    weight: 0.171
+  - feature_id: PCIP_OG:eggnog:37VBN
+    weight: 0.8756
+  - feature_id: PCIP_OG:eggnog:37UVB
+    weight: 0.2712
+  - feature_id: PCIP_OG:eggnog:37QR7
+    weight: 0.2304
+  - feature_id: PCIP_OG:eggnog:37T60
+    weight: 1.0
+  - feature_id: PCIP_OG:eggnog:37V26
+    weight: 0.3076
+  - feature_id: PCIP_OG:eggnog:37RBY
+    weight: 0.209
+  - feature_id: PCIP_OG:eggnog:37U2W
+    weight: 0.2662
+  - feature_id: PCIP_OG:eggnog:37R65
+    weight: 0.2558
+  - feature_id: PCIP_OG:eggnog:37IMZ
+    weight: 0.224
+  - feature_id: PCIP_OG:eggnog:37PFQ
+    weight: 0.1896
+  - feature_id: PCIP_OG:eggnog:37IIR
+    weight: 0.1554
+  - feature_id: PCIP_OG:eggnog:37NBV
+    weight: 0.1255
+  - feature_id: PCIP_OG:eggnog:37I53
+    weight: 0.116
+  - feature_id: PCIP_OG:eggnog:37NP9
+    weight: 0.1113
+  - feature_id: PCIP_OG:eggnog:37HJA
+    weight: 0.1108
+  - feature_id: PCIP_OG:eggnog:37K67
+    weight: 0.4049
+  - feature_id: PCIP_OG:eggnog:37Q10
+    weight: 0.3333
+  - feature_id: PCIP_OG:eggnog:37IZD
+    weight: 0.3191
+  - feature_id: PCIP_OG:eggnog:37JJM
+    weight: 0.2265
+  - feature_id: PCIP_OG:eggnog:37S4W
+    weight: 0.1654
+  - feature_id: PCIP_OG:eggnog:37K8C
+    weight: 0.1443
+  - feature_id: PCIP_OG:eggnog:37IDM
+    weight: 0.1276
+  - feature_id: PCIP_OG:eggnog:37HH8
+    weight: 0.2135
+  - feature_id: PCIP_OG:eggnog:37JQE
+    weight: 0.1108
+  - feature_id: PCIP_OG:eggnog:37MAQ
+    weight: 0.2832
+  - feature_id: PCIP_OG:eggnog:37W3Y
+    weight: 0.2716
+  - feature_id: PCIP_OG:eggnog:37QQU
+    weight: 0.1685
+  - feature_id: PCIP_OG:eggnog:37M44
+    weight: 0.1676
+  - feature_id: PCIP_OG:eggnog:37MVW
+    weight: 0.1331
+  - feature_id: PCIP_OG:eggnog:37MIV
+    weight: 0.216
+  - feature_id: PCIP_OG:eggnog:37P8G
+    weight: 0.1945
+  - feature_id: PCIP_OG:eggnog:37JHG
+    weight: 0.1612
+  - feature_id: PCIP_OG:eggnog:37PH0
+    weight: 0.1519
+  - feature_id: PCIP_OG:eggnog:37MR5
+    weight: 0.1258
+  - feature_id: PCIP_OG:eggnog:37I70
+    weight: 0.2038
+  - feature_id: PCIP_OG:eggnog:37Q7Z
+    weight: 0.1408
+  - feature_id: PCIP_OG:eggnog:37MHH
+    weight: 0.1336
+  - feature_id: PCIP_OG:eggnog:37J24
+    weight: 0.1326
+  - feature_id: PCIP_OG:eggnog:37HSH
+    weight: 0.102
+  - feature_id: PCIP_OG:eggnog:37JIK
+    weight: 0.0996
+- program_id: PCIP_ATLAS_ROOT_ROOT_CAP
+  cell_type_coarse: root_cap
+  program_type: identity
+  scope: root
+  level: coarse
+  positive_features:
+  - feature_id: PCIP_OG:eggnog:37PTE
+    weight: 1.0
+  - feature_id: PCIP_OG:eggnog:37QMR
+    weight: 0.4053
+  - feature_id: PCIP_OG:eggnog:37K60
+    weight: 0.2127
+  - feature_id: PCIP_OG:eggnog:37SQN
+    weight: 0.2626
+  - feature_id: PCIP_OG:eggnog:37KJ6
+    weight: 0.4037
+  - feature_id: PCIP_OG:eggnog:37QH6
+    weight: 0.2871
+  - feature_id: PCIP_OG:eggnog:37PR3
+    weight: 0.2751
+  - feature_id: PCIP_OG:eggnog:37J1A
+    weight: 0.2403
+  - feature_id: PCIP_OG:eggnog:37RAV
+    weight: 0.6461
+  - feature_id: PCIP_OG:eggnog:37Q93
+    weight: 0.1844
+  - feature_id: PCIP_OG:eggnog:37RM9
+    weight: 0.1788
+  - feature_id: PCIP_OG:eggnog:37KSP
+    weight: 0.1376
+  - feature_id: PCIP_OG:eggnog:37SXF
+    weight: 0.2404
+  - feature_id: PCIP_OG:eggnog:37S1T
+    weight: 0.1739
+  - feature_id: PCIP_OG:eggnog:37NVN
+    weight: 0.313
+  - feature_id: PCIP_OG:eggnog:37N2U
+    weight: 0.1546
+  - feature_id: PCIP_OG:eggnog:37NZT
+    weight: 0.1502
+  - feature_id: PCIP_OG:eggnog:37M2C
+    weight: 0.1031
+  - feature_id: PCIP_OG:eggnog:37IW2
+    weight: 0.2433
+  - feature_id: PCIP_OG:eggnog:37JPG
+    weight: 0.1936
+  - feature_id: PCIP_OG:eggnog:37J42
+    weight: 0.1936
+  - feature_id: PCIP_OG:eggnog:37Q1N
+    weight: 0.1691
+  - feature_id: PCIP_OG:eggnog:37HZV
+    weight: 0.1369
+  - feature_id: PCIP_OG:eggnog:37KBR
+    weight: 0.0839
+  - feature_id: PCIP_OG:eggnog:37IP8
+    weight: 0.1871
+  - feature_id: PCIP_OG:eggnog:37INX
+    weight: 0.1485
+  - feature_id: PCIP_OG:eggnog:37HYI
+    weight: 0.0798
+  - feature_id: PCIP_OG:eggnog:37J75
+    weight: 0.2234
+  - feature_id: PCIP_OG:eggnog:37RTR
+    weight: 0.1836
+  - feature_id: PCIP_OG:eggnog:37PAU
+    weight: 0.1128
+  - feature_id: PCIP_OG:eggnog:37MC5
+    weight: 0.091
+  - feature_id: PCIP_OG:eggnog:37TY3
+    weight: 0.2247
+  - feature_id: PCIP_OG:eggnog:37MER
+    weight: 0.142
+  - feature_id: PCIP_OG:eggnog:37J68
+    weight: 0.1174
+  - feature_id: PCIP_OG:eggnog:37IM6
+    weight: 0.0795
+  - feature_id: PCIP_OG:eggnog:37QYE
+    weight: 0.2122
+  - feature_id: PCIP_OG:eggnog:37KA1
+    weight: 0.1718
+  - feature_id: PCIP_OG:eggnog:37KGB
+    weight: 0.1492
+  - feature_id: PCIP_OG:eggnog:37HV3
+    weight: 0.1224
+  - feature_id: PCIP_OG:eggnog:37IAM
+    weight: 0.1107
+  - feature_id: PCIP_OG:eggnog:37HKM
+    weight: 0.1096
+- program_id: PCIP_ATLAS_ROOT_XYLEM
+  cell_type_coarse: xylem
+  program_type: identity
+  scope: root
+  level: coarse
+  positive_features:
+  - feature_id: PCIP_OG:eggnog:37T57
+    weight: 1.0
+  - feature_id: PCIP_OG:eggnog:37IM4
+    weight: 0.8874
+  - feature_id: PCIP_OG:eggnog:37S2A
+    weight: 0.8255
+  - feature_id: PCIP_OG:eggnog:37HVR
+    weight: 0.5315
+  - feature_id: PCIP_OG:eggnog:37JBR
+    weight: 0.2266
+  - feature_id: PCIP_OG:eggnog:37K3R
+    weight: 0.3426
+  - feature_id: PCIP_OG:eggnog:37R4Q
+    weight: 0.2119
+  - feature_id: PCIP_OG:eggnog:37JFJ
+    weight: 0.1825
+  - feature_id: PCIP_OG:eggnog:37N5E
+    weight: 0.0949
+  - feature_id: PCIP_OG:eggnog:37NER
+    weight: 0.1954
+  - feature_id: PCIP_OG:eggnog:37R74
+    weight: 0.1899
+  - feature_id: PCIP_OG:eggnog:37VYD
+    weight: 0.1833
+  - feature_id: PCIP_OG:eggnog:37ID9
+    weight: 0.0972
+  - feature_id: PCIP_OG:eggnog:37NVR
+    weight: 0.1155
+  - feature_id: PCIP_OG:eggnog:37JZ6
+    weight: 0.2355
+  - feature_id: PCIP_OG:eggnog:37KWD
+    weight: 0.2306
+  - feature_id: PCIP_OG:eggnog:37QK1
+    weight: 0.1779
+  - feature_id: PCIP_OG:eggnog:37JP3
+    weight: 0.0718
+  - feature_id: PCIP_OG:eggnog:37W75
+    weight: 0.0637
+  - feature_id: PCIP_OG:eggnog:37Q4F
+    weight: 0.0584
+  - feature_id: PCIP_OG:eggnog:37P9M
+    weight: 0.1396
+  - feature_id: PCIP_OG:eggnog:37PWM
+    weight: 0.123
+  - feature_id: PCIP_OG:eggnog:37U3Y
+    weight: 0.0753
+  - feature_id: PCIP_OG:eggnog:37S4W
+    weight: 0.0725
+  - feature_id: PCIP_OG:eggnog:37IQZ
+    weight: 0.0636
+  - feature_id: PCIP_OG:eggnog:37MAN
+    weight: 0.0606
+  - feature_id: PCIP_OG:eggnog:37UVF
+    weight: 0.0533
+fine_programs:
+  cortex:
+  - program_id: PCIP_ATLAS_ROOT_CORTEX__CORTEX
+    cell_type_coarse: cortex
+    program_type: identity
+    scope: root
+    level: fine
+    positive_features:
+    - feature_id: PCIP_OG:eggnog:37XBC
+      weight: 1.0
+    - feature_id: PCIP_OG:eggnog:37UZ3
+      weight: 0.7066
+    - feature_id: PCIP_OG:eggnog:37K09
+      weight: 0.2494
+    - feature_id: PCIP_OG:eggnog:37X73
+      weight: 0.3911
+    - feature_id: PCIP_OG:eggnog:37ISJ
+      weight: 0.2216
+    - feature_id: PCIP_OG:eggnog:37HXP
+      weight: 0.5204
+    - feature_id: PCIP_OG:eggnog:37U6F
+      weight: 0.6468
+    - feature_id: PCIP_OG:eggnog:37IYA
+      weight: 0.5088
+    - feature_id: PCIP_OG:eggnog:37QJ4
+      weight: 0.3679
+    - feature_id: PCIP_OG:eggnog:37PGQ
+      weight: 0.1577
+    - feature_id: PCIP_OG:eggnog:37TXJ
+      weight: 0.1547
+    - feature_id: PCIP_OG:eggnog:37Q3V
+      weight: 0.2813
+    - feature_id: PCIP_OG:eggnog:37HGD
+      weight: 0.1872
+    cell_type_fine: Cortex
+    parent_coarse: cortex
+  - program_id: PCIP_ATLAS_ROOT_CORTEX__EXODERMIS
+    cell_type_coarse: cortex
+    program_type: identity
+    scope: root
+    level: fine
+    positive_features:
+    - feature_id: PCIP_OG:eggnog:37JN5
+      weight: 0.5971
+    - feature_id: PCIP_OG:eggnog:37HXA
+      weight: 0.4228
+    - feature_id: PCIP_OG:eggnog:37KEI
+      weight: 1.0
+    - feature_id: PCIP_OG:eggnog:37UZP
+      weight: 0.4853
+    - feature_id: PCIP_OG:eggnog:37VG8
+      weight: 0.2854
+    - feature_id: PCIP_OG:eggnog:37KU8
+      weight: 0.977
+    - feature_id: PCIP_OG:eggnog:37VJ3
+      weight: 0.3493
+    - feature_id: PCIP_OG:eggnog:37V26
+      weight: 0.2808
+    - feature_id: PCIP_OG:eggnog:37NNX
+      weight: 0.4488
+    cell_type_fine: Exodermis
+    parent_coarse: cortex
+  epidermis:
+  - program_id: PCIP_ATLAS_ROOT_EPIDERMIS__NON-HAIR_ROOT_EPIDERMAL_CELL
+    cell_type_coarse: epidermis
+    program_type: identity
+    scope: root
+    level: fine
+    positive_features:
+    - feature_id: PCIP_OG:eggnog:37HQP
+      weight: 1.0
+    - feature_id: PCIP_OG:eggnog:37PC4
+      weight: 0.3439
+    cell_type_fine: Non-hair root epidermal cell
+    parent_coarse: epidermis
+  - program_id: PCIP_ATLAS_ROOT_EPIDERMIS__ROOT_HAIR_CELL
+    cell_type_coarse: epidermis
+    program_type: identity
+    scope: root
+    level: fine
+    positive_features:
+    - feature_id: PCIP_OG:eggnog:37UH8
+      weight: 0.7925
+    - feature_id: PCIP_OG:eggnog:37PIG
+      weight: 0.4762
+    - feature_id: PCIP_OG:eggnog:37J4U
+      weight: 0.7995
+    - feature_id: PCIP_OG:eggnog:37U30
+      weight: 1.0
+    - feature_id: PCIP_OG:eggnog:37PX3
+      weight: 0.7079
+    - feature_id: PCIP_OG:eggnog:37KBU
+      weight: 0.3623
+    - feature_id: PCIP_OG:eggnog:37PK2
+      weight: 0.2986
+    - feature_id: PCIP_OG:eggnog:37KTG
+      weight: 0.2021
+    - feature_id: PCIP_OG:eggnog:37QHY
+      weight: 0.2327
+    cell_type_fine: Root hair cell
+    parent_coarse: epidermis
+  pericycle:
+  - program_id: PCIP_ATLAS_ROOT_PERICYCLE__PHLOEM_POLE_PERICYCLE_CELL
+    cell_type_coarse: pericycle
+    program_type: identity
+    scope: root
+    level: fine
+    positive_features:
+    - feature_id: PCIP_OG:eggnog:37NH0
+      weight: 1.0
+    - feature_id: PCIP_OG:eggnog:37UKT
+      weight: 0.6417
+    - feature_id: PCIP_OG:eggnog:37NJX
+      weight: 0.3786
+    - feature_id: PCIP_OG:eggnog:37RTT
+      weight: 0.1982
+    - feature_id: PCIP_OG:eggnog:37JN5
+      weight: 0.3153
+    - feature_id: PCIP_OG:eggnog:37MIV
+      weight: 0.3164
+    - feature_id: PCIP_OG:eggnog:37VCY
+      weight: 0.1257
+    - feature_id: PCIP_OG:eggnog:37JCJ
+      weight: 0.2296
+    - feature_id: PCIP_OG:eggnog:37QVK
+      weight: 0.1865
+    - feature_id: PCIP_OG:eggnog:37VC4
+      weight: 0.1455
+    - feature_id: PCIP_OG:eggnog:37NF1
+      weight: 0.1831
+    - feature_id: PCIP_OG:eggnog:37Q38
+      weight: 0.1185
+    - feature_id: PCIP_OG:eggnog:37JPC
+      weight: 0.0749
+    cell_type_fine: Phloem pole pericycle cell
+    parent_coarse: pericycle
+  - program_id: PCIP_ATLAS_ROOT_PERICYCLE__XYLEM_POLE_PERICYCLE_CELL
+    cell_type_coarse: pericycle
+    program_type: identity
+    scope: root
+    level: fine
+    positive_features:
+    - feature_id: PCIP_OG:eggnog:37NAT
+      weight: 0.3883
+    - feature_id: PCIP_OG:eggnog:37V7C
+      weight: 0.1829
+    - feature_id: PCIP_OG:eggnog:37K9M
+      weight: 0.7033
+    - feature_id: PCIP_OG:eggnog:37VAF
+      weight: 0.092
+    - feature_id: PCIP_OG:eggnog:37RW1
+      weight: 1.0
+    - feature_id: PCIP_OG:eggnog:37V5M
+      weight: 0.4904
+    - feature_id: PCIP_OG:eggnog:37SMN
+      weight: 0.4145
+    - feature_id: PCIP_OG:eggnog:37NEB
+      weight: 0.3565
+    - feature_id: PCIP_OG:eggnog:37JSP
+      weight: 0.1386
+    - feature_id: PCIP_OG:eggnog:37KAW
+      weight: 0.3019
+    - feature_id: PCIP_OG:eggnog:37JJI
+      weight: 0.1472
+    - feature_id: PCIP_OG:eggnog:37JQU
+      weight: 0.3535
+    cell_type_fine: Xylem pole pericycle cell
+    parent_coarse: pericycle
+  phloem:
+  - program_id: PCIP_ATLAS_ROOT_PHLOEM__COMPANION_CELL
+    cell_type_coarse: phloem
+    program_type: identity
+    scope: root
+    level: fine
+    positive_features:
+    - feature_id: PCIP_OG:eggnog:37JCJ
+      weight: 1.0
+    - feature_id: PCIP_OG:eggnog:37U30
+      weight: 0.8198
+    - feature_id: PCIP_OG:eggnog:37JYM
+      weight: 0.7636
+    - feature_id: PCIP_OG:eggnog:37I59
+      weight: 0.6217
+    - feature_id: PCIP_OG:eggnog:37JV5
+      weight: 0.526
+    - feature_id: PCIP_OG:eggnog:37UHN
+      weight: 0.3776
+    - feature_id: PCIP_OG:eggnog:37JQK
+      weight: 0.3681
+    - feature_id: PCIP_OG:eggnog:37UKT
+      weight: 0.3275
+    - feature_id: PCIP_OG:eggnog:37HIS
+      weight: 0.4282
+    - feature_id: PCIP_OG:eggnog:37IDW
+      weight: 0.2095
+    - feature_id: PCIP_OG:eggnog:37S3J
+      weight: 0.2154
+    - feature_id: PCIP_OG:eggnog:37N27
+      weight: 0.2454
+    - feature_id: PCIP_OG:eggnog:37SWT
+      weight: 0.1424
+    - feature_id: PCIP_OG:eggnog:37K20
+      weight: 0.1569
+    - feature_id: PCIP_OG:eggnog:37SB1
+      weight: 0.2182
+    - feature_id: PCIP_OG:eggnog:37PAW
+      weight: 0.1022
+    - feature_id: PCIP_OG:eggnog:37RSK
+      weight: 0.3777
+    - feature_id: PCIP_OG:eggnog:37J5I
+      weight: 0.1422
+    - feature_id: PCIP_OG:eggnog:37P9N
+      weight: 0.1156
+    - feature_id: PCIP_OG:eggnog:37KJI
+      weight: 0.1147
+    - feature_id: PCIP_OG:eggnog:37JNM
+      weight: 0.1927
+    - feature_id: PCIP_OG:eggnog:37J47
+      weight: 0.1519
+    - feature_id: PCIP_OG:eggnog:37WDW
+      weight: 0.1471
+    - feature_id: PCIP_OG:eggnog:37HZ5
+      weight: 0.0751
+    cell_type_fine: Companion cell
+    parent_coarse: phloem
+  - program_id: PCIP_ATLAS_ROOT_PHLOEM__PHLOEM_PARENCHYMA_CELL
+    cell_type_coarse: phloem
+    program_type: identity
+    scope: root
+    level: fine
+    positive_features:
+    - feature_id: PCIP_OG:eggnog:37VQ1
+      weight: 1.0
+    - feature_id: PCIP_OG:eggnog:37V6S
+      weight: 0.9223
+    - feature_id: PCIP_OG:eggnog:37X8G
+      weight: 0.749
+    - feature_id: PCIP_OG:eggnog:37TWG
+      weight: 0.7149
+    - feature_id: PCIP_OG:eggnog:37RS5
+      weight: 0.6314
+    - feature_id: PCIP_OG:eggnog:37IYA
+      weight: 0.5604
+    - feature_id: PCIP_OG:eggnog:37QAP
+      weight: 0.5207
+    - feature_id: PCIP_OG:eggnog:37QDP
+      weight: 0.7134
+    - feature_id: PCIP_OG:eggnog:37ITJ
+      weight: 0.6703
+    - feature_id: PCIP_OG:eggnog:37U6T
+      weight: 0.4193
+    - feature_id: PCIP_OG:eggnog:37M4G
+      weight: 0.3683
+    - feature_id: PCIP_OG:eggnog:37K54
+      weight: 0.704
+    - feature_id: PCIP_OG:eggnog:37RB0
+      weight: 0.5259
+    - feature_id: PCIP_OG:eggnog:37JUP
+      weight: 0.5947
+    - feature_id: PCIP_OG:eggnog:37K60
+      weight: 0.5475
+    - feature_id: PCIP_OG:eggnog:37K0J
+      weight: 0.2778
+    - feature_id: PCIP_OG:eggnog:37N5Y
+      weight: 0.4885
+    - feature_id: PCIP_OG:eggnog:37NZZ
+      weight: 0.3756
+    - feature_id: PCIP_OG:eggnog:37S5A
+      weight: 0.248
+    - feature_id: PCIP_OG:eggnog:37HEK
+      weight: 0.2656
+    - feature_id: PCIP_OG:eggnog:37K4P
+      weight: 0.2474
+    - feature_id: PCIP_OG:eggnog:37IQC
+      weight: 0.3456
+    - feature_id: PCIP_OG:eggnog:37I15
+      weight: 0.2931
+    - feature_id: PCIP_OG:eggnog:37HHG
+      weight: 0.2213
+    - feature_id: PCIP_OG:eggnog:37R5R
+      weight: 0.219
+    - feature_id: PCIP_OG:eggnog:37ID4
+      weight: 0.1849
+    - feature_id: PCIP_OG:eggnog:37QX2
+      weight: 0.2731
+    - feature_id: PCIP_OG:eggnog:37TQQ
+      weight: 0.2468
+    - feature_id: PCIP_OG:eggnog:37UIG
+      weight: 0.2336
+    - feature_id: PCIP_OG:eggnog:37I2F
+      weight: 0.2306
+    - feature_id: PCIP_OG:eggnog:37MUI
+      weight: 0.3425
+    - feature_id: PCIP_OG:eggnog:37HXA
+      weight: 0.2962
+    - feature_id: PCIP_OG:eggnog:37M67
+      weight: 0.2406
+    cell_type_fine: Phloem parenchyma cell
+    parent_coarse: phloem
+  - program_id: PCIP_ATLAS_ROOT_PHLOEM__PROTOPHLOEM
+    cell_type_coarse: phloem
+    program_type: identity
+    scope: root
+    level: fine
+    positive_features:
+    - feature_id: PCIP_OG:eggnog:37HUF
+      weight: 1.0
+    - feature_id: PCIP_OG:eggnog:37J6C
+      weight: 0.8405
+    - feature_id: PCIP_OG:eggnog:37MN0
+      weight: 0.5183
+    - feature_id: PCIP_OG:eggnog:37KEX
+      weight: 0.5176
+    - feature_id: PCIP_OG:eggnog:37JM4
+      weight: 0.5492
+    - feature_id: PCIP_OG:eggnog:37N0S
+      weight: 0.5099
+    - feature_id: PCIP_OG:eggnog:37VG8
+      weight: 0.2498
+    - feature_id: PCIP_OG:eggnog:37UZ8
+      weight: 0.3756
+    - feature_id: PCIP_OG:eggnog:37T0I
+      weight: 0.3732
+    - feature_id: PCIP_OG:eggnog:37PQX
+      weight: 0.3271
+    - feature_id: PCIP_OG:eggnog:37JHG
+      weight: 0.2676
+    - feature_id: PCIP_OG:eggnog:37Q8V
+      weight: 0.3095
+    - feature_id: PCIP_OG:eggnog:37KPD
+      weight: 0.3749
+    cell_type_fine: Protophloem
+    parent_coarse: phloem
+  - program_id: PCIP_ATLAS_ROOT_PHLOEM__SIEVE_ELEMENT
+    cell_type_coarse: phloem
+    program_type: identity
+    scope: root
+    level: fine
+    positive_features:
+    - feature_id: PCIP_OG:eggnog:37TXV
+      weight: 1.0
+    - feature_id: PCIP_OG:eggnog:37JIK
+      weight: 0.5653
+    - feature_id: PCIP_OG:eggnog:37URC
+      weight: 0.4874
+    - feature_id: PCIP_OG:eggnog:37WIH
+      weight: 0.4349
+    - feature_id: PCIP_OG:eggnog:37TBV
+      weight: 0.4312
+    - feature_id: PCIP_OG:eggnog:37QXG
+      weight: 0.3527
+    - feature_id: PCIP_OG:eggnog:37MD5
+      weight: 0.3487
+    - feature_id: PCIP_OG:eggnog:37MIV
+      weight: 0.3219
+    - feature_id: PCIP_OG:eggnog:37VBE
+      weight: 0.2442
+    - feature_id: PCIP_OG:eggnog:37HIU
+      weight: 0.0816
+    - feature_id: PCIP_OG:eggnog:37PUG
+      weight: 0.0607
+    - feature_id: PCIP_OG:eggnog:37TUQ
+      weight: 0.2502
+    - feature_id: PCIP_OG:eggnog:37PRS
+      weight: 0.1105
+    - feature_id: PCIP_OG:eggnog:37PPV
+      weight: 0.0772
+    cell_type_fine: Sieve element
+    parent_coarse: phloem
+  root_cap:
+  - program_id: PCIP_ATLAS_ROOT_ROOT_CAP__COLUMELLA_ROOT_CAP_CELL
+    cell_type_coarse: root_cap
+    program_type: identity
+    scope: root
+    level: fine
+    positive_features:
+    - feature_id: PCIP_OG:eggnog:37HP9
+      weight: 1.0
+    - feature_id: PCIP_OG:eggnog:37IFN
+      weight: 0.9709
+    - feature_id: PCIP_OG:eggnog:37PZX
+      weight: 0.8888
+    - feature_id: PCIP_OG:eggnog:37K0R
+      weight: 0.3844
+    - feature_id: PCIP_OG:eggnog:37I6F
+      weight: 0.7492
+    cell_type_fine: Columella root cap cell
+    parent_coarse: root_cap
+  - program_id: PCIP_ATLAS_ROOT_ROOT_CAP__LATERAL_ROOT_CAP
+    cell_type_coarse: root_cap
+    program_type: identity
+    scope: root
+    level: fine
+    positive_features:
+    - feature_id: PCIP_OG:eggnog:37HFB
+      weight: 0.9232
+    - feature_id: PCIP_OG:eggnog:37QMR
+      weight: 0.7701
+    - feature_id: PCIP_OG:eggnog:37JX1
+      weight: 1.0
+    - feature_id: PCIP_OG:eggnog:37UZN
+      weight: 0.724
+    - feature_id: PCIP_OG:eggnog:37HW1
+      weight: 0.4063
+    - feature_id: PCIP_OG:eggnog:37MYJ
+      weight: 0.6372
+    - feature_id: PCIP_OG:eggnog:37SWT
+      weight: 0.453
+    - feature_id: PCIP_OG:eggnog:37VF9
+      weight: 0.383
+    - feature_id: PCIP_OG:eggnog:37PTE
+      weight: 0.3997
+    - feature_id: PCIP_OG:eggnog:37NG0
+      weight: 0.3992
+    - feature_id: PCIP_OG:eggnog:37I5U
+      weight: 0.3709
+    - feature_id: PCIP_OG:eggnog:37UQB
+      weight: 0.2986
+    - feature_id: PCIP_OG:eggnog:37TY3
+      weight: 0.6482
+    - feature_id: PCIP_OG:eggnog:37RGN
+      weight: 0.347
+    cell_type_fine: Lateral root cap
+    parent_coarse: root_cap
+  xylem:
+  - program_id: PCIP_ATLAS_ROOT_XYLEM__METAXYLEM
+    cell_type_coarse: xylem
+    program_type: identity
+    scope: root
+    level: fine
+    positive_features:
+    - feature_id: PCIP_OG:eggnog:37S2A
+      weight: 1.0
+    - feature_id: PCIP_OG:eggnog:37KZ3
+      weight: 0.872
+    - feature_id: PCIP_OG:eggnog:37VJM
+      weight: 0.5449
+    - feature_id: PCIP_OG:eggnog:37SJ6
+      weight: 0.5027
+    - feature_id: PCIP_OG:eggnog:37QH1
+      weight: 0.1684
+    - feature_id: PCIP_OG:eggnog:37QE2
+      weight: 0.1444
+    - feature_id: PCIP_OG:eggnog:37V67
+      weight: 0.1472
+    - feature_id: PCIP_OG:eggnog:37IZ1
+      weight: 0.197
+    - feature_id: PCIP_OG:eggnog:37M9Y
+      weight: 0.1101
+    - feature_id: PCIP_OG:eggnog:37UQB
+      weight: 0.109
+    - feature_id: PCIP_OG:eggnog:37NEB
+      weight: 0.1366
+    - feature_id: PCIP_OG:eggnog:37VCK
+      weight: 0.0973
+    - feature_id: PCIP_OG:eggnog:37I4P
+      weight: 0.0803
+    cell_type_fine: Metaxylem
+    parent_coarse: xylem
+  - program_id: PCIP_ATLAS_ROOT_XYLEM__PROTOXYLEM
+    cell_type_coarse: xylem
+    program_type: identity
+    scope: root
+    level: fine
+    positive_features:
+    - feature_id: PCIP_OG:eggnog:37QRB
+      weight: 1.0
+    - feature_id: PCIP_OG:eggnog:37U81
+      weight: 0.7314
+    - feature_id: PCIP_OG:eggnog:37S9R
+      weight: 0.6035
+    - feature_id: PCIP_OG:eggnog:37JSP
+      weight: 0.5847
+    - feature_id: PCIP_OG:eggnog:37MZ6
+      weight: 0.5789
+    - feature_id: PCIP_OG:eggnog:37M6W
+      weight: 0.5188
+    - feature_id: PCIP_OG:eggnog:37VBB
+      weight: 0.4906
+    - feature_id: PCIP_OG:eggnog:37N1E
+      weight: 0.3553
+    - feature_id: PCIP_OG:eggnog:37IT6
+      weight: 0.7656
+    - feature_id: PCIP_OG:eggnog:37RGY
+      weight: 0.6319
+    - feature_id: PCIP_OG:eggnog:37MJ5
+      weight: 0.5828
+    - feature_id: PCIP_OG:eggnog:37WDH
+      weight: 0.4603
+    - feature_id: PCIP_OG:eggnog:37PKP
+      weight: 0.4306
+    - feature_id: PCIP_OG:eggnog:37KHI
+      weight: 0.3667
+    - feature_id: PCIP_OG:eggnog:37QDG
+      weight: 0.632
+    - feature_id: PCIP_OG:eggnog:37VKX
+      weight: 0.615
+    - feature_id: PCIP_OG:eggnog:37HGY
+      weight: 0.4397
+    - feature_id: PCIP_OG:eggnog:37KBR
+      weight: 0.2399
+    - feature_id: PCIP_OG:eggnog:37TX3
+      weight: 0.3981
+    - feature_id: PCIP_OG:eggnog:37KAW
+      weight: 0.3748
+    - feature_id: PCIP_OG:eggnog:37HYI
+      weight: 0.2754
+    - feature_id: PCIP_OG:eggnog:37IVW
+      weight: 0.3405
+    - feature_id: PCIP_OG:eggnog:37QDS
+      weight: 0.273
+    - feature_id: PCIP_OG:eggnog:37V07
+      weight: 0.2583
+    - feature_id: PCIP_OG:eggnog:37HGR
+      weight: 0.195
+    - feature_id: PCIP_OG:eggnog:37RVY
+      weight: 0.3561
+    - feature_id: PCIP_OG:eggnog:37NQK
+      weight: 0.2774
+    - feature_id: PCIP_OG:eggnog:37MEE
+      weight: 0.1214
+    - feature_id: PCIP_OG:eggnog:37R5A
+      weight: 0.3898
+    - feature_id: PCIP_OG:eggnog:37JDN
+      weight: 0.1757
+    - feature_id: PCIP_OG:eggnog:37N59
+      weight: 0.0963
+    - feature_id: PCIP_OG:eggnog:37N9R
+      weight: 0.3735
+    - feature_id: PCIP_OG:eggnog:37QMC
+      weight: 0.2306
+    - feature_id: PCIP_OG:eggnog:37UTB
+      weight: 0.1841
+    - feature_id: PCIP_OG:eggnog:37WEB
+      weight: 0.1095
+    cell_type_fine: Protoxylem
+    parent_coarse: xylem
+  - program_id: PCIP_ATLAS_ROOT_XYLEM__XYLEM_FIBER_CELL
+    cell_type_coarse: xylem
+    program_type: identity
+    scope: root
+    level: fine
+    positive_features:
+    - feature_id: PCIP_OG:eggnog:37S5A
+      weight: 1.0
+    - feature_id: PCIP_OG:eggnog:37PIE
+      weight: 0.3107
+    - feature_id: PCIP_OG:eggnog:37QH6
+      weight: 0.2477
+    - feature_id: PCIP_OG:eggnog:37M1H
+      weight: 0.211
+    - feature_id: PCIP_OG:eggnog:37HSH
+      weight: 0.1873
+    - feature_id: PCIP_OG:eggnog:37JBR
+      weight: 0.2253
+    - feature_id: PCIP_OG:eggnog:37J0I
+      weight: 0.2008
+    - feature_id: PCIP_OG:eggnog:37VT3
+      weight: 0.1999
+    - feature_id: PCIP_OG:eggnog:37PC4
+      weight: 0.1964
+    - feature_id: PCIP_OG:eggnog:37VU6
+      weight: 0.1773
+    - feature_id: PCIP_OG:eggnog:37MMR
+      weight: 0.1572
+    - feature_id: PCIP_OG:eggnog:37RP6
+      weight: 0.1384
+    - feature_id: PCIP_OG:eggnog:37Q6T
+      weight: 0.2001
+    - feature_id: PCIP_OG:eggnog:37K60
+      weight: 0.1866
+    - feature_id: PCIP_OG:eggnog:37IDM
+      weight: 0.1132
+    - feature_id: PCIP_OG:eggnog:37SIX
+      weight: 0.1463
+    - feature_id: PCIP_OG:eggnog:37T73
+      weight: 0.1947
+    - feature_id: PCIP_OG:eggnog:37VAF
+      weight: 0.1512
+    - feature_id: PCIP_OG:eggnog:37QDM
+      weight: 0.121
+    - feature_id: PCIP_OG:eggnog:37SWK
+      weight: 0.1059
+    - feature_id: PCIP_OG:eggnog:37KJY
+      weight: 0.1342
+    - feature_id: PCIP_OG:eggnog:37J6E
+      weight: 0.1083
+    - feature_id: PCIP_OG:eggnog:37UVB
+      weight: 0.1014
+    - feature_id: PCIP_OG:eggnog:37V7C
+      weight: 0.1139
+    cell_type_fine: Xylem fiber cell
+    parent_coarse: xylem
+  - program_id: PCIP_ATLAS_ROOT_XYLEM__XYLEM_PARENCHYMA_CELL
+    cell_type_coarse: xylem
+    program_type: identity
+    scope: root
+    level: fine
+    positive_features:
+    - feature_id: PCIP_OG:eggnog:37MFZ
+      weight: 1.0
+    - feature_id: PCIP_OG:eggnog:37J8I
+      weight: 0.9303
+    - feature_id: PCIP_OG:eggnog:37Q2N
+      weight: 0.705
+    - feature_id: PCIP_OG:eggnog:37S60
+      weight: 0.8652
+    - feature_id: PCIP_OG:eggnog:37PGR
+      weight: 0.5597
+    - feature_id: PCIP_OG:eggnog:37KQB
+      weight: 0.5237
+    - feature_id: PCIP_OG:eggnog:37UU4
+      weight: 0.52
+    - feature_id: PCIP_OG:eggnog:37SQ4
+      weight: 0.4434
+    - feature_id: PCIP_OG:eggnog:37J5F
+      weight: 0.45
+    - feature_id: PCIP_OG:eggnog:37QTF
+      weight: 0.5558
+    - feature_id: PCIP_OG:eggnog:37U65
+      weight: 0.5484
+    - feature_id: PCIP_OG:eggnog:37M0D
+      weight: 0.341
+    - feature_id: PCIP_OG:eggnog:37RB0
+      weight: 0.267
+    - feature_id: PCIP_OG:eggnog:37K7F
+      weight: 0.5711
+    - feature_id: PCIP_OG:eggnog:37UIG
+      weight: 0.4226
+    - feature_id: PCIP_OG:eggnog:37VN3
+      weight: 0.4117
+    - feature_id: PCIP_OG:eggnog:37Q03
+      weight: 0.3682
+    - feature_id: PCIP_OG:eggnog:37HEC
+      weight: 0.2731
+    - feature_id: PCIP_OG:eggnog:37T0I
+      weight: 0.5204
+    - feature_id: PCIP_OG:eggnog:37KBB
+      weight: 0.4757
+    - feature_id: PCIP_OG:eggnog:37JHF
+      weight: 0.3763
+    - feature_id: PCIP_OG:eggnog:37VT3
+      weight: 0.2257
+    - feature_id: PCIP_OG:eggnog:37REZ
+      weight: 0.3884
+    - feature_id: PCIP_OG:eggnog:37KFJ
+      weight: 0.5336
+    - feature_id: PCIP_OG:eggnog:37N4K
+      weight: 0.2788
+    - feature_id: PCIP_OG:eggnog:37K92
+      weight: 0.2556
+    - feature_id: PCIP_OG:eggnog:37ME1
+      weight: 0.4369
+    - feature_id: PCIP_OG:eggnog:37U4D
+      weight: 0.3186
+    - feature_id: PCIP_OG:eggnog:37V92
+      weight: 0.2679
+    - feature_id: PCIP_OG:eggnog:37M89
+      weight: 0.2521
+    - feature_id: PCIP_OG:eggnog:37SQG
+      weight: 0.3147
+    - feature_id: PCIP_OG:eggnog:37HQX
+      weight: 0.3192
+    - feature_id: PCIP_OG:eggnog:37ID6
+      weight: 0.1587
+    cell_type_fine: Xylem parenchyma cell
+    parent_coarse: xylem
+  - program_id: PCIP_ATLAS_ROOT_XYLEM__XYLEM_VESSEL_MEMBER
+    cell_type_coarse: xylem
+    program_type: identity
+    scope: root
+    level: fine
+    positive_features:
+    - feature_id: PCIP_OG:eggnog:37P1U
+      weight: 1.0
+    - feature_id: PCIP_OG:eggnog:37MZU
+      weight: 0.8383
+    - feature_id: PCIP_OG:eggnog:37PQX
+      weight: 0.6981
+    - feature_id: PCIP_OG:eggnog:37NGT
+      weight: 0.6556
+    - feature_id: PCIP_OG:eggnog:37RJZ
+      weight: 0.5328
+    - feature_id: PCIP_OG:eggnog:37KWD
+      weight: 0.5219
+    - feature_id: PCIP_OG:eggnog:37JFJ
+      weight: 0.4872
+    - feature_id: PCIP_OG:eggnog:37KAT
+      weight: 0.3982
+    - feature_id: PCIP_OG:eggnog:37PSG
+      weight: 0.3949
+    - feature_id: PCIP_OG:eggnog:37JDV
+      weight: 0.2434
+    - feature_id: PCIP_OG:eggnog:37R49
+      weight: 0.3288
+    - feature_id: PCIP_OG:eggnog:37U0G
+      weight: 0.2306
+    - feature_id: PCIP_OG:eggnog:37KCX
+      weight: 0.3339
+    - feature_id: PCIP_OG:eggnog:37HHX
+      weight: 0.2237
+    - feature_id: PCIP_OG:eggnog:37T0Y
+      weight: 0.1935
+    - feature_id: PCIP_OG:eggnog:37UPX
+      weight: 0.1867
+    - feature_id: PCIP_OG:eggnog:37UZ4
+      weight: 0.0978
+    - feature_id: PCIP_OG:eggnog:37IAM
+      weight: 0.2165
+    - feature_id: PCIP_OG:eggnog:37VJP
+      weight: 0.1751
+    - feature_id: PCIP_OG:eggnog:37S5I
+      weight: 0.1068
+    - feature_id: PCIP_OG:eggnog:37KEV
+      weight: 0.1027
+    - feature_id: PCIP_OG:eggnog:37WQA
+      weight: 0.1747
+    - feature_id: PCIP_OG:eggnog:37PAJ
+      weight: 0.1554
+    - feature_id: PCIP_OG:eggnog:37KA1
+      weight: 0.1584
+    cell_type_fine: Xylem vessel member
+    parent_coarse: xylem
+state_programs:
+- program_id: PCIP_ATLAS_ROOT_MERISTEM_QC_INITIAL
+  cell_type_coarse: meristem_qc_initial
+  program_type: identity
+  scope: root
+  level: coarse
+  positive_features:
+  - feature_id: PCIP_OG:eggnog:37SPK
+    weight: 1.0
+  - feature_id: PCIP_OG:eggnog:37Q1N
+    weight: 0.73
+  - feature_id: PCIP_OG:eggnog:37U3K
+    weight: 0.8224
+  - feature_id: PCIP_OG:eggnog:37Q0T
+    weight: 0.6123
+  - feature_id: PCIP_OG:eggnog:37M4P
+    weight: 0.8263
+  - feature_id: PCIP_OG:eggnog:37JCN
+    weight: 0.6899
+  - feature_id: PCIP_OG:eggnog:37JWW
+    weight: 0.4931
+  - feature_id: PCIP_OG:eggnog:37W0V
+    weight: 0.434
+  - feature_id: PCIP_OG:eggnog:37UT4
+    weight: 0.535
+  - feature_id: PCIP_OG:eggnog:37KSA
+    weight: 0.3073
+  - feature_id: PCIP_OG:eggnog:37ISQ
+    weight: 0.5384
+  - feature_id: PCIP_OG:eggnog:37HSN
+    weight: 0.5381
+  - feature_id: PCIP_OG:eggnog:37QJ2
+    weight: 0.4676
+  - feature_id: PCIP_OG:eggnog:37JDE
+    weight: 0.4449
+  - feature_id: PCIP_OG:eggnog:37J7B
+    weight: 0.419
+  - feature_id: PCIP_OG:eggnog:37MT8
+    weight: 0.4142
+  - feature_id: PCIP_OG:eggnog:37S8M
+    weight: 0.4108
+  - feature_id: PCIP_OG:eggnog:37MSG
+    weight: 0.3873
+  - feature_id: PCIP_OG:eggnog:37RT7
+    weight: 0.3701
+  - feature_id: PCIP_OG:eggnog:37MZZ
+    weight: 0.3315
+  - feature_id: PCIP_OG:eggnog:37QRG
+    weight: 0.6282
+  - feature_id: PCIP_OG:eggnog:37HTB
+    weight: 0.3791
+  - feature_id: PCIP_OG:eggnog:37HJF
+    weight: 0.3609
+  - feature_id: PCIP_OG:eggnog:37R39
+    weight: 0.3595
+  - feature_id: PCIP_OG:eggnog:37P7W
+    weight: 0.2508
+  - feature_id: PCIP_OG:eggnog:37NH5
+    weight: 0.3843
+  - feature_id: PCIP_OG:eggnog:37UIJ
+    weight: 0.3606
+  - feature_id: PCIP_OG:eggnog:37IDP
+    weight: 0.3296
+  - feature_id: PCIP_OG:eggnog:37N83
+    weight: 0.5464
+  - feature_id: PCIP_OG:eggnog:37HJR
+    weight: 0.4516
+  - feature_id: PCIP_OG:eggnog:37Q93
+    weight: 0.3791
+  - feature_id: PCIP_OG:eggnog:37VMB
+    weight: 0.3699
+  - feature_id: PCIP_OG:eggnog:37MV0
+    weight: 0.3328
+  - feature_id: PCIP_OG:eggnog:37N70
+    weight: 0.2513
+  - feature_id: PCIP_OG:eggnog:37RA0
+    weight: 0.4944
+  - feature_id: PCIP_OG:eggnog:37VZ4
+    weight: 0.465
+  - feature_id: PCIP_OG:eggnog:37HJM
+    weight: 0.3234
+  - feature_id: PCIP_OG:eggnog:37PT8
+    weight: 0.2455
+  - feature_id: PCIP_OG:eggnog:37PN1
+    weight: 0.2258
+  - feature_id: PCIP_OG:eggnog:37JT9
+    weight: 0.2126
+  - feature_id: PCIP_OG:eggnog:37PQN
+    weight: 0.2854
+  - feature_id: PCIP_OG:eggnog:37Q0V
+    weight: 0.2597
+  - feature_id: PCIP_OG:eggnog:37JFD
+    weight: 0.2453
+  - feature_id: PCIP_OG:eggnog:37R2S
+    weight: 0.2434
+  - feature_id: PCIP_OG:eggnog:37NC1
+    weight: 0.2386
+  - feature_id: PCIP_OG:eggnog:37MSV
+    weight: 0.1729
+  - feature_id: PCIP_OG:eggnog:37J5T
+    weight: 0.2989
+  - feature_id: PCIP_OG:eggnog:37MVW
+    weight: 0.2666
+  - feature_id: PCIP_OG:eggnog:37RJU
+    weight: 0.2055
+scope: root
+training_species:
+- Arabidopsis thaliana
+- Glycine max
+- Medicago truncatula
+- Nicotiana tabacum
+- Oryza sativa
+- Solanum lycopersicum
+- Sorghum bicolor
+- Triticum aestivum
+- Zea mays
+training_datasets:
+- arabidopsis_ipscdb_Dt001_SRP267870
+- arabidopsis_ipscdb_Dt002_SRP235541
+- arabidopsis_ipscdb_Dt003_SRP171040
+- arabidopsis_ipscdb_Dt004_SRP182008
+- arabidopsis_ipscdb_Dt005_SRP166333
+- arabidopsis_ipscdb_Dt006_SRP285817
+- arabidopsis_ipscdb_Dt007_SRP273996
+- arabidopsis_ipscdb_Dt018_SRP173393
+- arabidopsis_ipscdb_Dt019_SRP169576
+- arabidopsis_ipscdb_Dt020_SRP148288
+- arabidopsis_ipscdb_Dt021_SRP332285
+- arabidopsis_ipscdb_Dt028_SRP285040
+- arabidopsis_ipscdb_Dt030_SRP394711
+- glycine_ipscdb_Dt049_CRA007122
+- medicago_ipscdb_Dt058_SRP390780
+- nicotiana_ipscdb_Dt105_CRA016403
+- oryza_ipscdb_Dt062_SRP309176
+- oryza_ipscdb_Dt063_SRP250946
+- oryza_ipscdb_Dt065_CRA004082
+- triticum_ipscdb_Dt077_CRA008788
+- zea_ipscdb_Dt080_SRP145013
+- zea_ipscdb_Dt081_SRP335180
+- arabidopsis_GSE270140_secondary
+- arabidopsis_GSE308672_normoxic
+- arabidopsis_zenodo15267473_ctrl2
+- train/sorghum_GSE225118
+- train/sorghum_PRJNA935359
+- train/soybean_GSE270392
+- train/tomato_GSE212403
+- train/tomato_GSE289841_ctrl
+- train/zea_GSE225118
+n_training_cells: 65809
+n_features: 8104
+default_score_correction: bg_center
+label_scheme: coarse lineage types; exodermis is a fine type within cortex; meristem is a developmental-state program
+excluded_training_labels:
+- triticum_ipscdb_Dt077_CRA008788:phloem
+- triticum_ipscdb_Dt077_CRA008788:xylem
+reliability:
+  coarse_loso_f1:
+    cortex: 0.6229
+    endodermis: 0.8304
+    epidermis: 0.6432
+    pericycle: 0.7507
+    phloem: 0.8482
+    procambium: 0.5078
+    root_cap: 0.2816
+    xylem: 0.7889
+  fine_acc_given_coarse: 0.754
+  fine_chance: 0.5
+  state_auroc:
+    meristem_qc_initial: 0.574
+  margin_quartile_accuracy:
+  - 0.3173
+  - 0.4525
+  - 0.6455
+  - 0.8558
+  source: leave-one-species-out (7 species, species-weighted means, seeds [20261003, 20261004, 20261005]), author labels

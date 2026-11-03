@@ -1,0 +1,44 @@
+{
+  "title": "scPCIP: single-cell Plant Cell Identity Programs",
+  "upload_type": "software",
+  "description": "scPCIP annotates plant single-cell RNA-seq data (root, leaf, flower and seed) with cross-species gene programs. Each cell type is described by a weighted set of orthogroups learned from many labelled plant atlases, so a new dataset can be annotated without a reference atlas from the same species.",
+  "creators": [
+    {
+      "name": "Yang, Shipeng"
+    },
+    {
+      "name": "Si, Chen"
+    },
+    {
+      "name": "Wu, Yujiang"
+    },
+    {
+      "name": "Sun, Zhu"
+    },
+    {
+      "name": "Yao, Cai"
+    },
+    {
+      "name": "Sun, Xuemei"
+    },
+    {
+      "name": "Wang, Lihui"
+    },
+    {
+      "name": "Li, Wei"
+    },
+    {
+      "name": "Zhong, Qiwen"
+    }
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "keywords": [
+    "single-cell RNA-seq",
+    "cell-type annotation",
+    "plant biology",
+    "gene programs",
+    "orthogroups",
+    "cross-species"
+  ]
+}

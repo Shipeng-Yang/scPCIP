@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scpcip"
+version = "1.0.0"
+description = "scPCIP: program-based cell-type annotation for plant single-cell RNA-seq"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.11"
+authors = [{name = "Shipeng Yang"}]
+keywords = ["single-cell RNA-seq", "cell-type annotation", "plant", "gene programs", "orthogroups", "cross-species"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = [
+    "numpy>=2.4,<2.5",
+    "scipy>=1.17,<1.18",
+    "pandas>=2.3,<2.4",
+    "anndata>=0.12,<0.13",
+    "scikit-learn>=1.8,<1.9",
+    "pyyaml>=6.0",
+    "threadpoolctl>=3.1",
+    "scanpy>=1.11,<1.12",
+    "numba>=0.65,<0.66",
+    "matplotlib>=3.10,<3.11",
+    "leidenalg>=0.10",
+    "pynndescent>=0.5,<0.7",  # 0.7 returns csr_array, which scanpy 1.11 neighbors cannot read
+    "huggingface_hub>=0.23",
+]
+
+[project.urls]
+Homepage = "https://github.com/Shipeng-Yang/scPCIP"
+Source = "https://github.com/Shipeng-Yang/scPCIP"
+Issues = "https://github.com/Shipeng-Yang/scPCIP/issues"
+Changelog = "https://github.com/Shipeng-Yang/scPCIP/blob/main/CHANGELOG.md"
+
+[project.optional-dependencies]
+report = []  # kept so that "scpcip[report]" still installs; figures are always available
+
+[project.scripts]
+scpcip = "pcip.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+pcip = ["data/configs/*.yaml", "data/dictionaries/*.yaml", "data/R/*.R"]

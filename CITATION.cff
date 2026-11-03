@@ -1,0 +1,63 @@
+cff-version: 1.2.0
+message: "If you use scPCIP, please cite it as below."
+title: "scPCIP: single-cell Plant Cell Identity Programs"
+abstract: >-
+  scPCIP annotates plant single-cell RNA-seq data (root, leaf, flower and seed) with cross-species gene programs.
+  Each cell type is described by a weighted set of orthogroups learned from many labelled plant atlases, so a new
+  dataset can be annotated without a reference atlas from the same species.
+type: software
+authors:
+  - given-names: "Shipeng"
+    family-names: "Yang"
+  - given-names: "Chen"
+    family-names: "Si"
+  - given-names: "Yujiang"
+    family-names: "Wu"
+  - given-names: "Zhu"
+    family-names: "Sun"
+  - given-names: "Cai"
+    family-names: "Yao"
+  - given-names: "Xuemei"
+    family-names: "Sun"
+  - given-names: "Lihui"
+    family-names: "Wang"
+  - given-names: "Wei"
+    family-names: "Li"
+  - given-names: "Qiwen"
+    family-names: "Zhong"
+version: 1.0.0
+date-released: 2026-11-03
+license: MIT
+repository-code: "https://github.com/Shipeng-Yang/scPCIP"
+keywords:
+  - single-cell RNA-seq
+  - cell-type annotation
+  - plant biology
+  - gene programs
+  - orthogroups
+  - cross-species
+preferred-citation:
+  type: article
+  title: "scPCIP: cross-species annotation of plant cell types with conserved gene programs"
+  authors:
+    - given-names: "Shipeng"
+      family-names: "Yang"
+    - given-names: "Chen"
+      family-names: "Si"
+    - given-names: "Yujiang"
+      family-names: "Wu"
+    - given-names: "Zhu"
+      family-names: "Sun"
+    - given-names: "Cai"
+      family-names: "Yao"
+    - given-names: "Xuemei"
+      family-names: "Sun"
+    - given-names: "Lihui"
+      family-names: "Wang"
+    - given-names: "Wei"
+      family-names: "Li"
+    - given-names: "Qiwen"
+      family-names: "Zhong"
+  journal: "bioRxiv"
+  year: 2026
+  notes: "Preprint"

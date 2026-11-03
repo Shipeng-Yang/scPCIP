@@ -1,0 +1,422 @@
+version: leaf
+feature_layer: orthogroup
+programs:
+- program_id: PCIP_ATLAS_ROOT_EPIDERMIS
+  cell_type_coarse: epidermis
+  program_type: identity
+  scope: root
+  level: coarse
+  positive_features:
+  - feature_id: PCIP_OG:eggnog:37JY2
+    weight: 1.0
+  - feature_id: PCIP_OG:eggnog:37VZU
+    weight: 0.6723
+  - feature_id: PCIP_OG:eggnog:37NNX
+    weight: 0.5236
+  - feature_id: PCIP_OG:eggnog:37MV7
+    weight: 0.5189
+  - feature_id: PCIP_OG:eggnog:37P48
+    weight: 0.5128
+  - feature_id: PCIP_OG:eggnog:37HSQ
+    weight: 0.3481
+  - feature_id: PCIP_OG:eggnog:37P2H
+    weight: 0.2555
+  - feature_id: PCIP_OG:eggnog:37U81
+    weight: 0.6469
+  - feature_id: PCIP_OG:eggnog:37JPR
+    weight: 0.409
+  - feature_id: PCIP_OG:eggnog:37JU0
+    weight: 0.282
+  - feature_id: PCIP_OG:eggnog:37ICX
+    weight: 0.3363
+  - feature_id: PCIP_OG:eggnog:37NEC
+    weight: 0.2847
+  - feature_id: PCIP_OG:eggnog:37HW1
+    weight: 0.2057
+  - feature_id: PCIP_OG:eggnog:37PPU
+    weight: 0.2947
+  - feature_id: PCIP_OG:eggnog:37K20
+    weight: 0.1472
+  - feature_id: PCIP_OG:eggnog:37IF3
+    weight: 0.1952
+  - feature_id: PCIP_OG:eggnog:37PB0
+    weight: 0.1257
+  - feature_id: PCIP_OG:eggnog:37PUU
+    weight: 0.1598
+  - feature_id: PCIP_OG:eggnog:37P62
+    weight: 0.1321
+  - feature_id: PCIP_OG:eggnog:37S1T
+    weight: 0.1881
+  - feature_id: PCIP_OG:eggnog:37R4Q
+    weight: 0.1465
+  - feature_id: PCIP_OG:eggnog:37MXU
+    weight: 0.0812
+  - feature_id: PCIP_OG:eggnog:37K60
+    weight: 0.2001
+  - feature_id: PCIP_OG:eggnog:37UNW
+    weight: 0.3094
+  - feature_id: PCIP_OG:eggnog:37RGC
+    weight: 0.1935
+  - feature_id: PCIP_OG:eggnog:37K7R
+    weight: 0.125
+  - feature_id: PCIP_OG:eggnog:37V2B
+    weight: 0.2611
+  - feature_id: PCIP_OG:eggnog:37KIT
+    weight: 0.0886
+  - feature_id: PCIP_OG:eggnog:37WUE
+    weight: 0.0954
+  - feature_id: PCIP_OG:eggnog:37KN2
+    weight: 0.0907
+  - feature_id: PCIP_OG:eggnog:37UEE
+    weight: 0.1426
+  - feature_id: PCIP_OG:eggnog:37W4D
+    weight: 0.1005
+- program_id: PCIP_ATLAS_ROOT_MESOPHYLL
+  cell_type_coarse: mesophyll
+  program_type: identity
+  scope: root
+  level: coarse
+  positive_features:
+  - feature_id: PCIP_OG:eggnog:37P5E
+    weight: 0.6542
+  - feature_id: PCIP_OG:eggnog:37QEA
+    weight: 0.5975
+  - feature_id: PCIP_OG:eggnog:37UG4
+    weight: 1.0
+  - feature_id: PCIP_OG:eggnog:37JZ3
+    weight: 0.6591
+  - feature_id: PCIP_OG:eggnog:37SIM
+    weight: 0.5347
+  - feature_id: PCIP_OG:eggnog:37S7H
+    weight: 0.6383
+  - feature_id: PCIP_OG:eggnog:37PR3
+    weight: 0.5141
+  - feature_id: PCIP_OG:eggnog:37IAE
+    weight: 0.4605
+  - feature_id: PCIP_OG:eggnog:37UR2
+    weight: 0.3326
+  - feature_id: PCIP_OG:eggnog:37J4P
+    weight: 0.4243
+  - feature_id: PCIP_OG:eggnog:37KBV
+    weight: 0.375
+  - feature_id: PCIP_OG:eggnog:37NB2
+    weight: 0.6257
+  - feature_id: PCIP_OG:eggnog:37IXF
+    weight: 0.4662
+  - feature_id: PCIP_OG:eggnog:37NXH
+    weight: 0.325
+  - feature_id: PCIP_OG:eggnog:37NSY
+    weight: 0.219
+  - feature_id: PCIP_OG:eggnog:37IJN
+    weight: 0.3345
+  - feature_id: PCIP_OG:eggnog:37RPV
+    weight: 0.2733
+  - feature_id: PCIP_OG:eggnog:37NTW
+    weight: 0.3914
+  - feature_id: PCIP_OG:eggnog:37K9M
+    weight: 0.338
+  - feature_id: PCIP_OG:eggnog:37W96
+    weight: 0.312
+  - feature_id: PCIP_OG:eggnog:37R40
+    weight: 0.227
+  - feature_id: PCIP_OG:eggnog:37TWN
+    weight: 0.2061
+  - feature_id: PCIP_OG:eggnog:37I5W
+    weight: 0.412
+  - feature_id: PCIP_OG:eggnog:37S94
+    weight: 0.375
+  - feature_id: PCIP_OG:eggnog:37JSF
+    weight: 0.3211
+  - feature_id: PCIP_OG:eggnog:37Q2W
+    weight: 0.2943
+  - feature_id: PCIP_OG:eggnog:37W0V
+    weight: 0.2687
+  - feature_id: PCIP_OG:eggnog:37I5J
+    weight: 0.2536
+  - feature_id: PCIP_OG:eggnog:37V9V
+    weight: 0.2247
+  - feature_id: PCIP_OG:eggnog:37HEX
+    weight: 0.3535
+  - feature_id: PCIP_OG:eggnog:37S67
+    weight: 0.3074
+  - feature_id: PCIP_OG:eggnog:37HJB
+    weight: 0.2258
+  - feature_id: PCIP_OG:eggnog:37Q93
+    weight: 0.2195
+  - feature_id: PCIP_OG:eggnog:37VD8
+    weight: 0.1561
+- program_id: PCIP_ATLAS_ROOT_VASCULAR
+  cell_type_coarse: vascular
+  program_type: identity
+  scope: root
+  level: coarse
+  positive_features:
+  - feature_id: PCIP_OG:eggnog:37J8N
+    weight: 1.0
+  - feature_id: PCIP_OG:eggnog:37QWB
+    weight: 0.9972
+  - feature_id: PCIP_OG:eggnog:37MC1
+    weight: 0.9829
+  - feature_id: PCIP_OG:eggnog:37VIC
+    weight: 0.69
+  - feature_id: PCIP_OG:eggnog:37QXZ
+    weight: 0.6483
+  - feature_id: PCIP_OG:eggnog:37J8I
+    weight: 0.4581
+  - feature_id: PCIP_OG:eggnog:37KKX
+    weight: 0.3976
+  - feature_id: PCIP_OG:eggnog:37M44
+    weight: 0.2791
+  - feature_id: PCIP_OG:eggnog:37PD6
+    weight: 0.3228
+  - feature_id: PCIP_OG:eggnog:37MNY
+    weight: 0.241
+  - feature_id: PCIP_OG:eggnog:37TUS
+    weight: 0.2141
+  - feature_id: PCIP_OG:eggnog:37K07
+    weight: 0.137
+  - feature_id: PCIP_OG:eggnog:37VDB
+    weight: 0.3146
+  - feature_id: PCIP_OG:eggnog:37IJE
+    weight: 0.201
+  - feature_id: PCIP_OG:eggnog:37QMY
+    weight: 0.1751
+  - feature_id: PCIP_OG:eggnog:37K4P
+    weight: 0.0877
+  - feature_id: PCIP_OG:eggnog:37SDV
+    weight: 0.374
+  - feature_id: PCIP_OG:eggnog:37PU3
+    weight: 0.1154
+  - feature_id: PCIP_OG:eggnog:37HT9
+    weight: 0.1356
+  - feature_id: PCIP_OG:eggnog:37JC6
+    weight: 0.2263
+  - feature_id: PCIP_OG:eggnog:37R63
+    weight: 0.1697
+  - feature_id: PCIP_OG:eggnog:37JCJ
+    weight: 0.1533
+  - feature_id: PCIP_OG:eggnog:37JE7
+    weight: 0.1247
+  - feature_id: PCIP_OG:eggnog:37XBC
+    weight: 0.1201
+  - feature_id: PCIP_OG:eggnog:37NCB
+    weight: 0.1767
+  - feature_id: PCIP_OG:eggnog:37JPC
+    weight: 0.1674
+  - feature_id: PCIP_OG:eggnog:37M6W
+    weight: 0.1228
+  - feature_id: PCIP_OG:eggnog:37N5F
+    weight: 0.0725
+  - feature_id: PCIP_OG:eggnog:37PH0
+    weight: 0.3004
+  - feature_id: PCIP_OG:eggnog:37IEV
+    weight: 0.1915
+  - feature_id: PCIP_OG:eggnog:37MIZ
+    weight: 0.1476
+  - feature_id: PCIP_OG:eggnog:37KPZ
+    weight: 0.1449
+  - feature_id: PCIP_OG:eggnog:37TTB
+    weight: 0.1141
+  - feature_id: PCIP_OG:eggnog:37S60
+    weight: 0.1995
+  - feature_id: PCIP_OG:eggnog:37UFM
+    weight: 0.1466
+  - feature_id: PCIP_OG:eggnog:37KK8
+    weight: 0.1178
+  - feature_id: PCIP_OG:eggnog:37HFF
+    weight: 0.0478
+  - feature_id: PCIP_OG:eggnog:37IVJ
+    weight: 0.1657
+  - feature_id: PCIP_OG:eggnog:37W28
+    weight: 0.1101
+  - feature_id: PCIP_OG:eggnog:37HQ3
+    weight: 0.1099
+  - feature_id: PCIP_OG:eggnog:37QVP
+    weight: 0.0979
+fine_programs:
+  vascular:
+  - program_id: PCIP_ATLAS_ROOT_VASCULAR__PHLOEM
+    cell_type_coarse: vascular
+    program_type: identity
+    scope: root
+    level: fine
+    positive_features:
+    - feature_id: PCIP_OG:eggnog:37WXC
+      weight: 1.0
+    - feature_id: PCIP_OG:eggnog:37KKX
+      weight: 0.9285
+    - feature_id: PCIP_OG:eggnog:37JC6
+      weight: 0.557
+    - feature_id: PCIP_OG:eggnog:37IG9
+      weight: 0.6713
+    - feature_id: PCIP_OG:eggnog:37TUS
+      weight: 0.3816
+    - feature_id: PCIP_OG:eggnog:37M8C
+      weight: 0.3765
+    - feature_id: PCIP_OG:eggnog:37NZG
+      weight: 0.5195
+    - feature_id: PCIP_OG:eggnog:37V87
+      weight: 0.3049
+    - feature_id: PCIP_OG:eggnog:37KQE
+      weight: 0.3842
+    - feature_id: PCIP_OG:eggnog:37J8I
+      weight: 0.2317
+    - feature_id: PCIP_OG:eggnog:37XBC
+      weight: 0.2827
+    - feature_id: PCIP_OG:eggnog:37HJM
+      weight: 0.2041
+    - feature_id: PCIP_OG:eggnog:37J9E
+      weight: 0.1858
+    - feature_id: PCIP_OG:eggnog:37T0I
+      weight: 0.227
+    - feature_id: PCIP_OG:eggnog:37TRM
+      weight: 0.1861
+    - feature_id: PCIP_OG:eggnog:37N8C
+      weight: 0.1817
+    - feature_id: PCIP_OG:eggnog:37PN1
+      weight: 0.1889
+    - feature_id: PCIP_OG:eggnog:37JDN
+      weight: 0.1749
+    - feature_id: PCIP_OG:eggnog:37JEU
+      weight: 0.1321
+    - feature_id: PCIP_OG:eggnog:37V8V
+      weight: 0.3325
+    - feature_id: PCIP_OG:eggnog:37R8G
+      weight: 0.2689
+    - feature_id: PCIP_OG:eggnog:37IDT
+      weight: 0.2054
+    - feature_id: PCIP_OG:eggnog:37TR9
+      weight: 0.1937
+    - feature_id: PCIP_OG:eggnog:37P2H
+      weight: 0.1688
+    cell_type_fine: phloem
+    parent_coarse: vascular
+  - program_id: PCIP_ATLAS_ROOT_VASCULAR__XYLEM
+    cell_type_coarse: vascular
+    program_type: identity
+    scope: root
+    level: fine
+    positive_features:
+    - feature_id: PCIP_OG:eggnog:37RS5
+      weight: 1.0
+    - feature_id: PCIP_OG:eggnog:37X17
+      weight: 0.803
+    - feature_id: PCIP_OG:eggnog:37HXH
+      weight: 0.515
+    - feature_id: PCIP_OG:eggnog:37HHG
+      weight: 0.387
+    - feature_id: PCIP_OG:eggnog:37UZ3
+      weight: 0.3635
+    - feature_id: PCIP_OG:eggnog:37REZ
+      weight: 0.3694
+    - feature_id: PCIP_OG:eggnog:37W8M
+      weight: 0.7081
+    - feature_id: PCIP_OG:eggnog:37I73
+      weight: 0.388
+    - feature_id: PCIP_OG:eggnog:37KPD
+      weight: 0.6406
+    - feature_id: PCIP_OG:eggnog:37IM4
+      weight: 0.5436
+    - feature_id: PCIP_OG:eggnog:37WE3
+      weight: 0.4277
+    - feature_id: PCIP_OG:eggnog:37MC1
+      weight: 0.3291
+    - feature_id: PCIP_OG:eggnog:37KI6
+      weight: 0.299
+    - feature_id: PCIP_OG:eggnog:37PC4
+      weight: 0.2643
+    - feature_id: PCIP_OG:eggnog:37PTT
+      weight: 0.3099
+    - feature_id: PCIP_OG:eggnog:37IDX
+      weight: 0.2784
+    - feature_id: PCIP_OG:eggnog:37VU6
+      weight: 0.2475
+    - feature_id: PCIP_OG:eggnog:37SDY
+      weight: 0.2324
+    - feature_id: PCIP_OG:eggnog:37TWV
+      weight: 0.2149
+    - feature_id: PCIP_OG:eggnog:37N0E
+      weight: 0.4576
+    - feature_id: PCIP_OG:eggnog:37TQQ
+      weight: 0.1697
+    - feature_id: PCIP_OG:eggnog:37KIC
+      weight: 0.1698
+    - feature_id: PCIP_OG:eggnog:37S60
+      weight: 0.1231
+    - feature_id: PCIP_OG:eggnog:37KXD
+      weight: 0.2598
+    - feature_id: PCIP_OG:eggnog:37KYK
+      weight: 0.2328
+    - feature_id: PCIP_OG:eggnog:37QAP
+      weight: 0.1759
+    cell_type_fine: xylem
+    parent_coarse: vascular
+reference_subtypes:
+- vascular
+scope: leaf
+training_species:
+- Arabidopsis lyrata
+- Arabidopsis thaliana
+- Brassica oleracea
+- Brassica rapa
+- Capsella rubella
+- Catharanthus roseus
+- Gossypium hirsutum
+- Oryza sativa
+- Solanum lycopersicum
+- Triticum aestivum
+- Zea mays
+training_datasets:
+- GSE201931_tomato_leaf
+- GSE297576_lyrata_leaf
+- GSE297576_oleracea_leaf
+- GSE297576_rubella_leaf
+- arabidopsis_ipscdb_Dt009_SRP292306
+- arabidopsis_ipscdb_Dt010_ERP132245
+- arabidopsis_ipscdb_Dt011_SRP247828_1
+- arabidopsis_ipscdb_Dt012_SRP247828_2
+- arabidopsis_ipscdb_Dt014_CRA002977_1
+- arabidopsis_ipscdb_Dt016_SRP307169
+- arabidopsis_ipscdb_Dt025_SRP280069
+- arabidopsis_ipscdb_Dt026_SRP398011
+- arabidopsis_ipscdb_Dt027_SRP338044
+- arabidopsis_ipscdb_Dt029_DRP009643
+- arabidopsis_ipscdb_Dt038_SRP449721
+- brapa_ipscdb_Dt043_CRA006988
+- catharanthus_ipscdb_Dt046_SRP335448
+- ghirsutum_ipscdb_Dt055_GSE243419
+- oryza_ipscdb_Dt060_SRP286275
+- oryza_ipscdb_Dt065_CRA004082
+- tomato_ipscdb_Dt092_SRP372960
+- triticum_ipscdb_Dt106_SRP549489
+- zea_ipscdb_Dt078_SRP281914
+- zea_ipscdb_Dt082_SRP224648
+- zea_ipscdb_Dt083_SRP325657_1
+- zea_ipscdb_Dt084_SRP325657_2
+n_training_cells: 30745
+n_features: 7817
+default_score_correction: bg_center
+label_scheme: epidermis / mesophyll / vascular
+hierarchical: true
+reliability:
+  margin_quartile_accuracy:
+  - 0.5912
+  - 0.6843
+  - 0.7489
+  - 0.9125
+  source: leave-one-species-out accuracy per within-query margin quartile (shipped settings), test sets with at least 3
+    evaluable types; mean over Arabidopsis, rice and tomato (the three GSE297576 Brassicaceae species come from one study
+    and family and are not included in the mean)
+  reference_subtype: 'Secondary xylem / phloem score inside cells called vascular. Leave-one-species-out accuracy among
+    those cells with an author xylem / phloem label (3 seeds; baseline: every cell assigned the subtype most frequent in
+    training): Arabidopsis lyrata 0.774 (baseline 0.616); Arabidopsis thaliana 0.781 (baseline 0.652); Brassica oleracea
+    0.802 (baseline 0.474); Capsella rubella 0.760 (baseline 0.665); Oryza sativa 0.816 (baseline 0.872); Solanum lycopersicum
+    0.433 (baseline 0.160).'
+  loso_macro_f1:
+    species_mean_macro_f1: 0.6836
+    sd_over_seeds: 0.0187
+    species:
+    - Arabidopsis thaliana
+    - Oryza sativa
+    - Solanum lycopersicum
+    mean_including_brassicaceae: 0.7625

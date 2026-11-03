@@ -1,0 +1,214 @@
+version: seed
+feature_layer: orthogroup
+programs:
+- program_id: PCIP_ATLAS_ROOT_EMBRYO
+  cell_type_coarse: embryo
+  program_type: identity
+  scope: root
+  level: coarse
+  positive_features:
+  - feature_id: PCIP_OG:eggnog:37NFS
+    weight: 1.0
+  - feature_id: PCIP_OG:eggnog:37JKG
+    weight: 0.9784
+  - feature_id: PCIP_OG:eggnog:37Q9G
+    weight: 0.9586
+  - feature_id: PCIP_OG:eggnog:37VMT
+    weight: 0.4804
+  - feature_id: PCIP_OG:eggnog:37RTC
+    weight: 0.5214
+  - feature_id: PCIP_OG:eggnog:37JAX
+    weight: 0.3689
+  - feature_id: PCIP_OG:eggnog:37USF
+    weight: 0.2651
+  - feature_id: PCIP_OG:eggnog:37QHS
+    weight: 0.3104
+  - feature_id: PCIP_OG:eggnog:37UHE
+    weight: 0.3073
+  - feature_id: PCIP_OG:eggnog:37Q7G
+    weight: 0.2829
+  - feature_id: PCIP_OG:eggnog:37J38
+    weight: 0.1404
+  - feature_id: PCIP_OG:eggnog:37QHB
+    weight: 0.2451
+  - feature_id: PCIP_OG:eggnog:37JBG
+    weight: 0.1501
+  - feature_id: PCIP_OG:eggnog:37JNA
+    weight: 0.2796
+  - feature_id: PCIP_OG:eggnog:37I5N
+    weight: 0.2572
+  - feature_id: PCIP_OG:eggnog:37MV0
+    weight: 0.2497
+  - feature_id: PCIP_OG:eggnog:37QQB
+    weight: 0.3882
+  - feature_id: PCIP_OG:eggnog:37N2J
+    weight: 0.3105
+  - feature_id: PCIP_OG:eggnog:37K9F
+    weight: 0.1845
+  - feature_id: PCIP_OG:eggnog:37RWI
+    weight: 0.2384
+  - feature_id: PCIP_OG:eggnog:37VGK
+    weight: 0.072
+  - feature_id: PCIP_OG:eggnog:37R8V
+    weight: 0.3063
+  - feature_id: PCIP_OG:eggnog:37WRI
+    weight: 0.2281
+  - feature_id: PCIP_OG:eggnog:37S1N
+    weight: 0.1777
+  - feature_id: PCIP_OG:eggnog:37SP5
+    weight: 0.2519
+- program_id: PCIP_ATLAS_ROOT_ENDOSPERM
+  cell_type_coarse: endosperm
+  program_type: identity
+  scope: root
+  level: coarse
+  positive_features:
+  - feature_id: PCIP_OG:eggnog:37Q72
+    weight: 1.0
+  - feature_id: PCIP_OG:eggnog:37K8V
+    weight: 0.7631
+  - feature_id: PCIP_OG:eggnog:37W7G
+    weight: 0.4259
+  - feature_id: PCIP_OG:eggnog:37VRX
+    weight: 0.3888
+  - feature_id: PCIP_OG:eggnog:37UFI
+    weight: 0.9334
+  - feature_id: PCIP_OG:eggnog:37K88
+    weight: 0.7129
+  - feature_id: PCIP_OG:eggnog:37W6T
+    weight: 0.6139
+  - feature_id: PCIP_OG:eggnog:37HRC
+    weight: 0.3895
+  - feature_id: PCIP_OG:eggnog:37YIS
+    weight: 0.5608
+  - feature_id: PCIP_OG:eggnog:37T2M
+    weight: 0.3861
+  - feature_id: PCIP_OG:eggnog:37IPX
+    weight: 0.1921
+  - feature_id: PCIP_OG:eggnog:37NK5
+    weight: 0.4417
+  - feature_id: PCIP_OG:eggnog:37ITH
+    weight: 0.3782
+  - feature_id: PCIP_OG:eggnog:37PN9
+    weight: 0.2966
+  - feature_id: PCIP_OG:eggnog:37WQB
+    weight: 0.5798
+  - feature_id: PCIP_OG:eggnog:37RU7
+    weight: 0.4037
+  - feature_id: PCIP_OG:eggnog:37IRP
+    weight: 0.3151
+  - feature_id: PCIP_OG:eggnog:37WQF
+    weight: 0.1981
+  - feature_id: PCIP_OG:eggnog:37JAE
+    weight: 0.6744
+  - feature_id: PCIP_OG:eggnog:37T38
+    weight: 0.577
+  - feature_id: PCIP_OG:eggnog:37JBH
+    weight: 0.2272
+  - feature_id: PCIP_OG:eggnog:37JEQ
+    weight: 0.3243
+  - feature_id: PCIP_OG:eggnog:37QUA
+    weight: 0.3079
+  - feature_id: PCIP_OG:eggnog:37HNT
+    weight: 0.4937
+  - feature_id: PCIP_OG:eggnog:37RP6
+    weight: 0.4801
+  - feature_id: PCIP_OG:eggnog:37MJC
+    weight: 0.2868
+  - feature_id: PCIP_OG:eggnog:37JHC
+    weight: 0.2615
+  - feature_id: PCIP_OG:eggnog:37HQH
+    weight: 0.1173
+  - feature_id: PCIP_OG:eggnog:37KE8
+    weight: 0.2399
+- program_id: PCIP_ATLAS_ROOT_SEED_COAT
+  cell_type_coarse: seed_coat
+  program_type: identity
+  scope: root
+  level: coarse
+  positive_features:
+  - feature_id: PCIP_OG:eggnog:37HHQ
+    weight: 1.0
+  - feature_id: PCIP_OG:eggnog:37J11
+    weight: 0.9166
+  - feature_id: PCIP_OG:eggnog:37S06
+    weight: 0.438
+  - feature_id: PCIP_OG:eggnog:37SS4
+    weight: 0.4298
+  - feature_id: PCIP_OG:eggnog:37MI4
+    weight: 0.2441
+  - feature_id: PCIP_OG:eggnog:37IQ6
+    weight: 0.4146
+  - feature_id: PCIP_OG:eggnog:37RM6
+    weight: 0.2094
+  - feature_id: PCIP_OG:eggnog:37PKY
+    weight: 0.3554
+  - feature_id: PCIP_OG:eggnog:37N9R
+    weight: 0.2585
+  - feature_id: PCIP_OG:eggnog:37QRP
+    weight: 0.2037
+  - feature_id: PCIP_OG:eggnog:37KFN
+    weight: 0.2701
+  - feature_id: PCIP_OG:eggnog:37KA3
+    weight: 0.3443
+  - feature_id: PCIP_OG:eggnog:37QAP
+    weight: 0.3171
+  - feature_id: PCIP_OG:eggnog:37VIY
+    weight: 0.2574
+  - feature_id: PCIP_OG:eggnog:37N27
+    weight: 0.1554
+  - feature_id: PCIP_OG:eggnog:37X4J
+    weight: 0.3817
+  - feature_id: PCIP_OG:eggnog:37PVN
+    weight: 0.2334
+  - feature_id: PCIP_OG:eggnog:37VE4
+    weight: 0.2173
+  - feature_id: PCIP_OG:eggnog:37PQK
+    weight: 0.1834
+  - feature_id: PCIP_OG:eggnog:37MNZ
+    weight: 0.3173
+  - feature_id: PCIP_OG:eggnog:37NRT
+    weight: 0.2581
+  - feature_id: PCIP_OG:eggnog:37IC4
+    weight: 0.2549
+  - feature_id: PCIP_OG:eggnog:37P2Z
+    weight: 0.249
+  - feature_id: PCIP_OG:eggnog:37T18
+    weight: 0.1768
+  - feature_id: PCIP_OG:eggnog:37IZG
+    weight: 0.0915
+scope: seed
+training_species:
+- Arabidopsis thaliana
+- Glycine max
+- Oryza sativa
+training_datasets:
+- GSE232863_seed
+- GSE270392_seed_cotyledon
+- GSE270392_seed_early_maturation
+- GSE270392_seed_globular
+- GSE270392_seed_heart
+- GSE295007_seed
+- oryza_rsta_seed
+n_training_cells: 9425
+n_features: 9688
+default_score_correction: bg_center
+label_scheme: embryo / endosperm / seed_coat
+hierarchical: true
+reliability:
+  margin_quartile_accuracy:
+  - 0.5525
+  - 0.7112
+  - 0.8717
+  - 0.9469
+  source: leave-one-species-out accuracy per within-query margin quartile (shipped settings), test sets with at least 3
+    evaluable types (Arabidopsis GSE295007 and four soybean GSE270392 samples; rice seed has the embryo type only)
+  loso_macro_f1:
+    species_mean_macro_f1: 0.6665
+    sd_over_seeds: 0.0162
+    species:
+    - Arabidopsis thaliana
+    - Glycine max
+    per_species_macro_f1:
+      Arabidopsis thaliana: 0.8033
+      Glycine max: 0.5298
